@@ -12,6 +12,7 @@ import Blog from "./routes/blog";
 import BlogPost from "./routes/blogPost";
 import Home from "./routes/home";
 import NoMatch from "./routes/noMatch";
+import BlogLandingPage from "./routes/blogLandingPage";
 
 //Testing
 import reportWebVitals from "./reportWebVitals";
@@ -27,6 +28,7 @@ root.render(
           <Route path="om" element={<Om />} />
           <Route path="apps" element={<Apps />} />
           <Route path="blog" element={<Blog />}>
+            <Route index element={<BlogLandingPage />} />
             <Route path=":blogPostId" element={<BlogPost />} />
           </Route>
           <Route path="*" element={<NoMatch />} />

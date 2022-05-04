@@ -1,5 +1,5 @@
 import { useParams, Link, Outlet } from "react-router-dom";
-import { getBlogPost, getBlogPosts } from "../data";
+import { getBlogPosts } from "../data";
 
 export default function BlogPost() {
   let blogPosts = getBlogPosts(parseInt());
@@ -17,7 +17,7 @@ export default function BlogPost() {
             to={`/blog/${blogPost.number}`}
             key={blogPost.number}
           >
-            {blogPost.name}
+            {blogPost.titel}
           </Link>
         ))}
       </nav>

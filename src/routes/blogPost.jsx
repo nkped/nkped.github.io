@@ -1,10 +1,15 @@
 import { getBlogPost } from "../data";
+import { useParams } from "react-router-dom";
 
 export default function BlogPost() {
-  let blogPost = getBlogPost();
+  let params = useParams();
+
+  let blogPost = getBlogPost(parseInt(params.blogPostId));
   return (
     <main>
-      <h2>{blogPost.name}</h2>
+      <h2>{blogPost.titel}</h2>
+      <p>{blogPost.text}</p>
+      <p>{blogPost.author} </p>
     </main>
   );
 }
