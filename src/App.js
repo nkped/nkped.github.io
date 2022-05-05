@@ -6,23 +6,30 @@ import "./App.css";
 
 //Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 //import Button from "react-bootstrap/Button";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <nav
-          style={{
-            borderBottom: "solid 1px",
-            paddingBottom: "1rem",
-          }}
-        >
-          <NavLink to="/">Home</NavLink> <NavLink to="/om">Om</NavLink>{" "}
-          <NavLink to="/apps">Apps</NavLink> <NavLink to="/blog">Blog</NavLink>
-        </nav>
-        <Outlet />
-      </header>
+      <nav>
+        <Navbar>
+          <Container>
+            <Navbar.Brand href="/">Nils-Kristian Pedersen</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto">
+                <Nav.Link href="/om">Om</Nav.Link>
+                <Nav.Link href="/apps">Apps</Nav.Link>
+                <NavDropdown title="Blog" id="basic-nav-dropdown">
+                  <NavDropdown.Item></NavDropdown.Item>
+                </NavDropdown>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+      </nav>
+      <Outlet />
     </div>
   );
 }
