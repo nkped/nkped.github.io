@@ -1,6 +1,6 @@
 //React
 import React from "react";
-import { NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 //Styles
 import "./App.css";
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <Navbar>
+        <Navbar bg="light" expand="lg">
           <Container>
             <Navbar.Brand href="/">Nils-Kristian Pedersen</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,7 +22,8 @@ function App() {
                 <Nav.Link href="/om">Om</Nav.Link>
                 <Nav.Link href="/apps">Apps</Nav.Link>
                 <NavDropdown title="Blog" id="basic-nav-dropdown">
-                  <NavDropdown.Item></NavDropdown.Item>
+                  <NavDropdown.Item>Blog Indlæg1</NavDropdown.Item>
+                  <NavDropdown.Item>Blog Indlæg2</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>

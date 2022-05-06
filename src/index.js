@@ -1,10 +1,11 @@
 //React
 import { StrictMode } from "react";
 import * as ReactDOMClient from "react-dom/client";
-import { HashRouter, Routes, Route } from "react-router-dom";
+//Remember at deploy - switch to HashRouter!
+import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 //Styles
 import "./index.css";
-//App
+//Routes
 import App from "./App";
 import Om from "./routes/om";
 import Apps from "./routes/apps";
@@ -20,20 +21,18 @@ import reportWebVitals from "./reportWebVitals";
 const rootElement = document.getElementById("root");
 const root = ReactDOMClient.createRoot(rootElement);
 root.render(
-  <StrictMode>
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<App />}>
-          <Route index element={<Home />} />
-          <Route path="om" element={<Om />} />
-          <Route path="apps" element={<Apps />} />
-          <Route path="blog" element={<Blog />}>
-            <Route index element={<BlogLandingPage />} />
-            <Route path=":blogPostId" element={<BlogPost />} />
-          </Route>
-          <Route path="*" element={<NoMatch />} />
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />}>
+        <Route index element={<Home />} />
+        <Route path="om" element={<Om />} />
+        <Route path="apps" element={<Apps />} />
+        <Route path="blog" element={<Blog />}>
+          <Route index element={<BlogLandingPage />} />
+          <Route path=":blogPostId" element={<BlogPost />} />
         </Route>
-      </Routes>
-    </HashRouter>
-  </StrictMode>
+        <Route path="*" element={<NoMatch />} />
+      </Route>
+    </Routes>
+  </BrowserRouter>
 );
