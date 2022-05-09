@@ -1,8 +1,8 @@
 import { Link, Outlet } from "react-router-dom";
 import { getBlogPosts } from "../data";
 
-export default function BlogPost() {
-  let blogPosts = getBlogPosts(parseInt());
+export default function Blog() {
+  let blogPosts = getBlogPosts();
   return (
     <div>
       <nav>
