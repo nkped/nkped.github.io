@@ -1,5 +1,5 @@
 import { getAllBlogPosts } from "../data";
-import { NavDropdown } from "react-bootstrap";
+import { NavDropdown, NavLink } from "react-bootstrap";
 
 export default function BlogDropdown() {
   let blogPosts = getAllBlogPosts();

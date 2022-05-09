@@ -23,6 +23,10 @@ function App() {
                 <Nav.Link href="/om">Om</Nav.Link>
                 <Nav.Link href="/apps">Apps</Nav.Link>
                 <NavDropdown title="Blog" id="basic-nav-dropdown">
+                  <NavDropdown.Item href="/blog">
+                    Velkommen til Blog
+                  </NavDropdown.Item>
+                  <NavDropdown.Divider />
                   <BlogDropdown />
                 </NavDropdown>
               </Nav>
