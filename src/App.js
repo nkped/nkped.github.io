@@ -8,6 +8,8 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 
+import BlogDropdown from "./routes/blogDropdown";
+
 function App() {
   return (
     <div className="App">
@@ -21,7 +23,7 @@ function App() {
                 <Nav.Link href="/om">Om</Nav.Link>
                 <Nav.Link href="/apps">Apps</Nav.Link>
                 <NavDropdown title="Blog" id="basic-nav-dropdown">
-                  <NavDropdown.Item></NavDropdown.Item>
+                  <BlogDropdown />
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>

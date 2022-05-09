@@ -1,4 +1,4 @@
-let data = [
+let blogPosts = [
   {
     number: 11,
     titel: "React-Router",
@@ -36,10 +36,10 @@ let data = [
   },
 ];
 
-export function getBlogPosts() {
-  return data;
+export function getAllBlogPosts() {
+  return blogPosts;
 }
 
 export function getBlogPost(number) {
-  return data.find((blogPost) => blogPost.number === number);
+  return blogPosts.find((blogPost) => blogPost.number === number);
 }
