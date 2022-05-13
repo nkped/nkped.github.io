@@ -21,7 +21,7 @@ export default function Home() {
           <Col className="border">Selv-lærende</Col>
         </Row>
         <Row>
-          <Col className="text-end">Ambitiøs</Col>
+          <Col className="text-end border">Ambitiøs</Col>
         </Row>
       </Container>
       <Footer />

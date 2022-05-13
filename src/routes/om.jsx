@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function Om() {
   return (
@@ -7,28 +7,30 @@ export default function Om() {
         <h1>Om</h1>
       </Container>
       <Container>
-        <p>
-          Jeg er selv-lærende frontend-udvikler, og jeg ønsker at dyggtigøre mig
-          professionelt under en praktik. Jeg er uddannet i journalistik og
-          samfundsvidenskab fra Roskilde UniversitetCenter, og har mange gode
-          erfaringer i bagagen som leverandør på contenr siden af nettet. BDa
-          Corona brød løs og hele Danmark tog en dyb kollektiv indånding gjorde
-          jeg det samme. Jeg har studeret frontend-udvikling i henved to år, og
-          mener nu, jeg er klar på en praktik.
-        </p>
+        <Row className="text-start p-4">
+          <Col>
+            Jeg er selv-lærende frontend-udvikler, og jeg ønsker at dyggtigøre
+            mig professionelt under en praktik. Jeg er uddannet i journalistik
+            og samfundsvidenskab fra Roskilde Universitet, og har mange gode
+            erfaringer i bagagen som leverandør af web-content, både
+            journalistik, hjemmeside-tekst samt pr-video. Da Corona brød løs og
+            hele Danmark tog en dyb kollektiv indånding gjorde jeg det samme.
+            Siden da, har jeg studeret frontend-udvikling på fuld tid, og mener
+            nu, jeg er klar på en praktik.
+          </Col>
+        </Row>
         <Container className="d-flex">
-          <h3>Jeg bidrager med..</h3>
+          <h4>Jeg bidrager med..</h4>
         </Container>
-        <p>Jeg ved, jeg har masser at lære - og glæder mig til det!</p>
-        <p>
-          Når det er sagt, har jeg efterhånden overvundet så mange faglige
-          udfordringer, at min selvtillid er temmelig god. Jeg forventer at
-          blive overvældet i min praktik, men også, at få styr på det.
-        </p>
-        <p>
-          Jeg gør altid mit bedste for at være en sjov, empatisk og
-          samvittighedsfuld kollega.{" "}
-        </p>
+        <Row className="text-start px-4 py-2">
+          <Col>
+            Jeg ved, jeg har masser at lære - og glæder mig til det! Når det er
+            sagt, har jeg efterhånden overvundet så mange faglige udfordringer,
+            at min selvtillid er robust. Jeg forventer at blive overvældet i min
+            praktik, men også, at få styr på det. Jeg gør altid mit bedste for
+            at være en sjov, empatisk og samvittighedsfuld kollega.
+          </Col>
+        </Row>
       </Container>
     </Container>
   );
