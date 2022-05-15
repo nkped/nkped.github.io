@@ -12,24 +12,31 @@ export default function Blog() {
         <h3>Blogposts:</h3>
       </Container>
       <Container className="p-4">
-        <Container>
-          {blogPosts.map((blogPost) => {
-            return (
-              <Row>
-                <Col className="pb-3">
-                  {`${blogPost.subject}: `}
+        {blogPosts.map((blogPost) => {
+          return (
+            <Container className="">
+              <Row className="border-top">
+                <Col className="d-flex justify-content-start py-2">
+                  <div className="">{`#${blogPost.subject}`}</div>
+                </Col>
+              </Row>
+              <Row className="">
+                <Col>
                   <Link
                     className="text-decoration-none"
                     to={`/blog/${blogPost.number}`}
                     key={blogPost.number}
                   >
-                    {blogPost.titel}
+                    <h4>{blogPost.titel}</h4>
                   </Link>
                 </Col>
+                <Row>
+                  <Col className="pb-5">{blogPost.intro}</Col>
+                </Row>
               </Row>
-            );
-          })}
-        </Container>
+            </Container>
+          );
+        })}
       </Container>
     </Container>
   );

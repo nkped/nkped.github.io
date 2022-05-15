@@ -1,41 +1,50 @@
 let blogPosts = [
   {
     number: 11,
-    titel: "Min hacky Nav-dropdown",
     subject: "React-Router",
+    titel: "Min hacky Nav-dropdown",
+    intro:
+      "Blogposts vises i global navigation-dropdown, og er lavet som dynamisk liste, der ikke kræver manuel opdatering af nav ved ny post.",
     image: "",
-    intro: "Hvordan jeg lavede en dynamisk dropdown til blogindlæg.",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining.",
     author: "Nils-Kristian Pedersen",
   },
   {
     number: 22,
-    titel: "Føles som 'full circle'",
     subject: "React-Boostrap",
+    titel: "Føles som 'full circle'",
+    intro:
+      "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum",
     image: "",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     author: "Nils-Kristian Pedersen",
   },
   {
     number: 33,
-    titel: "Publiser på gh-branch!",
     subject: "Github-Pages",
+    titel: "Publiser på gh-branch!",
+    intro:
+      "When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also.",
     image: "",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     author: "Nils-Kristian Pedersen",
   },
   {
     number: 44,
-    titel: "Husk min manual",
     subject: "Github-Pages",
+    titel: "Husk min manual",
+    intro:
+      "Ever since the 1500s, when an unknown printer took a galley of type and scrambled it.",
     image: "",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     author: "Nils-Kristian Pedersen",
   },
   {
     number: 55,
-    titel: "Nu med database",
     subject: "NextJS",
+    titel: "Nu med database",
+    intro:
+      "But also the leap into electronic typesetting, remaining. Lorem Ipsum is simply dummy text of the printing and typesetti.",
     image: "",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     author: "Nils-Kristian Pedersen",
