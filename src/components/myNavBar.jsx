@@ -5,10 +5,10 @@ import BlogDropdown from "./blogDropdown";
 
 export function MyNavBar() {
   return (
-    <nav>
+    <nav className="bg-dark navbar-dark">
       <Navbar expand="lg">
         <Container className="mb-5 mt-2">
-          <Navbar.Brand href="/">Nils-Kristian Pedersen</Navbar.Brand>
+          <Navbar.Brand href="/">NKPED</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
