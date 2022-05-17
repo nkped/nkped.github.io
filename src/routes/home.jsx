@@ -9,21 +9,21 @@ export default function Home() {
     <Container fluid className="bg-dark text-light">
       <Container className="px-5 pt-3">
         <Row>
-          <Col className="fs-1 fw-semibold">
+          <Col className="fs-2 fw-semibold">
             Frontend-udvikler søger{" "}
-            <span className="text-warning">praktikplads.</span>
+            <span className="fs-1 text-warning">praktikplads</span>
           </Col>
         </Row>
 
         <Container fluid className="my-4">
           <Image fluid src={YellowHomePageImage} />
         </Container>
-      </Container>
-      <Button variant="primary" className="w-25 mx-auto my-4">
-        Kontakt
-      </Button>
-      <Container>
-        <Footer />
+        <Button variant="primary" className="w-25 mx-auto my-4">
+          Kontakt
+        </Button>
+        <Container>
+          <Footer />
+        </Container>
       </Container>
     </Container>
   );

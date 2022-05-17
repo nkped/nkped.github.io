@@ -2,23 +2,24 @@ import { Outlet } from "react-router-dom";
 import { getAllBlogPosts } from "../data";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
+import { Footer } from "../components/footer";
 
 export default function Blog() {
   let blogPosts = getAllBlogPosts();
   return (
-    <Container>
+    <Container fluid className="bg-dark text-light">
       <Outlet />
-      <Container className="text-start">
-        <h3>Blogposts:</h3>
+      <Container className="fs-4 fw-semibold text-center">
+        <Row>
+          <Col>Blogposts</Col>
+        </Row>
       </Container>
       <Container className="p-4">
         {blogPosts.map((blogPost) => {
           return (
-            <Container className="">
-              <Row className="border-top">
-                <Col className="d-flex justify-content-start py-2">
-                  <div className="">{`#${blogPost.subject}`}</div>
-                </Col>
+            <Container className="border-top text-center py-3">
+              <Row>
+                <Col>{`#${blogPost.subject}`}</Col>
               </Row>
               <Row className="">
                 <Col>
@@ -38,6 +39,7 @@ export default function Blog() {
           );
         })}
       </Container>
+      <Footer />
     </Container>
   );
 }

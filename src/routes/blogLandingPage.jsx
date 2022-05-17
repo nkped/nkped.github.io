@@ -3,19 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function BlogLandingPage() {
   return (
     <Container>
-      <Container>
-        <Row className="text-start">
-          <Col>
-            <h2>Blog</h2>
-          </Col>
-        </Row>
+      <Container className="fs-1 fw-semibold mb-2 text-start">
+        <Row>Blog</Row>
       </Container>
-      <Container>
+      <Container className="text-center px-4 py-5 border-top border-warning">
         <Row>
-          <Col className="text-start p-4">
-            Velkommen til min blog. Her fører jeg en form for dagbog som
-            udvikler, dels, for at øve mig i at dokumentere, og dels, for at
-            skrive manualer, jeg hutigt kan vende tilbage til.
+          <Col>
+            Velkommen til min blog. Her øver jeg mig i at dokumentere, og
+            skriver manualer jeg hutigt kan vende tilbage til.
           </Col>
         </Row>
       </Container>

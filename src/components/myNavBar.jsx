@@ -5,9 +5,9 @@ import BlogDropdown from "./blogDropdown";
 
 export function MyNavBar() {
   return (
-    <nav className="bg-dark navbar-dark">
+    <nav className="bg-dark navbar-dark pb-4">
       <Navbar expand="lg">
-        <Container className="mb-5 mt-2">
+        <Container className="mb-3 mt-2">
           <Navbar.Brand className="text-primary" href="/">
             NKPED
           </Navbar.Brand>
