@@ -21,7 +21,7 @@ import reportWebVitals from "./reportWebVitals";
 const rootElement = document.getElementById("root");
 const root = ReactDOMClient.createRoot(rootElement);
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<Home />} />
@@ -34,5 +34,5 @@ root.render(
         <Route path="*" element={<NoMatch />} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
