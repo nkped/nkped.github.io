@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { getAllBlogPosts } from "../data";
 import { Link } from "react-router-dom";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import { Footer } from "../components/footer";
 
 export default function Blog() {
@@ -15,29 +15,20 @@ export default function Blog() {
         </Row>
       </Container>
       <Container className="p-4">
-        {blogPosts.map((blogPost) => {
-          return (
-            <Container className="border-top text-center py-3">
-              <Row>
-                <Col>{`#${blogPost.subject}`}</Col>
-              </Row>
-              <Row className="">
-                <Col>
-                  <Link
-                    className="text-decoration-none"
-                    to={`/blog/${blogPost.number}`}
-                    key={blogPost.number}
-                  >
-                    <h4>{blogPost.titel}</h4>
-                  </Link>
-                </Col>
-                <Row>
-                  <Col className="pb-5">{blogPost.intro}</Col>
-                </Row>
-              </Row>
-            </Container>
-          );
-        })}
+        {blogPosts.map((blogPost) => (
+          <Card bg="secondary" key={blogPost.number} className="mb-4">
+            {console.log(blogPost.number)}
+            <Card.Header>{blogPost.subject}</Card.Header>
+            <Card.Body>
+              <Card.Title>
+                <Card.Link href={`/blog/${blogPost.number}`}>
+                  {blogPost.titel}
+                </Card.Link>
+              </Card.Title>
+              <Card.Text>{blogPost.intro}</Card.Text>
+            </Card.Body>
+          </Card>
+        ))}
       </Container>
       <Footer />
     </Container>
