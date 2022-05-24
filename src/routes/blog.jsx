@@ -17,7 +17,6 @@ export default function Blog() {
       <Container className="p-4">
         {blogPosts.map((blogPost) => (
           <Card bg="secondary" key={blogPost.number} className="mb-4">
-            {console.log(blogPost.number)}
             <Card.Header>{`#${blogPost.subject}`}</Card.Header>
             <Card.Body>
               <Card.Title>
