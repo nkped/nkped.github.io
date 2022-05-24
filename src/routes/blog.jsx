@@ -18,10 +18,13 @@ export default function Blog() {
         {blogPosts.map((blogPost) => (
           <Card bg="secondary" key={blogPost.number} className="mb-4">
             {console.log(blogPost.number)}
-            <Card.Header>{blogPost.subject}</Card.Header>
+            <Card.Header>{`#${blogPost.subject}`}</Card.Header>
             <Card.Body>
               <Card.Title>
-                <Card.Link href={`/blog/${blogPost.number}`}>
+                <Card.Link
+                  className="text-decoration-none"
+                  href={`/blog/${blogPost.number}`}
+                >
                   {blogPost.titel}
                 </Card.Link>
               </Card.Title>

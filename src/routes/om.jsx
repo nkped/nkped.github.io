@@ -7,7 +7,7 @@ export default function Om() {
       <Container className="fs-1 fw-semibold mb-2">
         <Row>Om</Row>
       </Container>
-      <Container className="text-start px-4 py-5 border-top border-warning">
+      <Container className="text-start px-5 py-5 border-top border-warning">
         <Row>
           <Col>
             <p>
@@ -15,7 +15,7 @@ export default function Om() {
               mig professionelt under en praktik.
             </p>
             <p>
-              Jeg er uddannet i journalistik og samfundsvidenskab fra Roskilde
+              Jeg er uddannet i journalistik og samfundsvidenskab på Roskilde
               Universitet, og har mange gode erfaringer i bagagen som leverandør
               af web-content, både journalistik, hjemmeside-tekst samt pr-video.
             </p>
