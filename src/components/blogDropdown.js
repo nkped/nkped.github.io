@@ -1,5 +1,5 @@
 import { getAllBlogPosts } from "../data";
-import { NavDropdown, NavLink } from "react-bootstrap";
+import { NavDropdown, NavLink, Row } from "react-bootstrap";
 
 export default function BlogDropdown() {
   let blogPosts = getAllBlogPosts();
@@ -10,8 +10,9 @@ export default function BlogDropdown() {
           <NavDropdown.Item
             href={`/blog/${blogPost.number}`}
             key={blogPost.number}
+            className="text-center"
           >
-            {blogPost.titel}
+            {`${blogPost.titel}`}
           </NavDropdown.Item>
         ))}
       </nav>

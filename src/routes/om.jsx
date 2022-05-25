@@ -4,13 +4,13 @@ import { Footer } from "../components/footer";
 export default function Om() {
   return (
     <Container fluid className="bg-dark text-light">
-      <Container className="fs-1 fw-semibold mb-2">
+      <Container className="fs-1 fw-semibold mb-2 text-muted">
         <Row>Om</Row>
       </Container>
       <Container className="text-start px-5 py-5 border-top border-warning">
         <Row>
-          <Col>
-            <p>
+          <Col className="border-bottom border-warning pb-3">
+            <p className="lead">
               Jeg er selv-lærende frontend-udvikler og jeg ønsker at dyggtigøre
               mig professionelt under en praktik.
             </p>

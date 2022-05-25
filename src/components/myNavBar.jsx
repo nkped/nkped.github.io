@@ -16,9 +16,14 @@ export function MyNavBar() {
             <Nav className="me-auto">
               <Nav.Link href="/om">Om</Nav.Link>
               <Nav.Link href="/apps">Apps</Nav.Link>
-              <NavDropdown title="Blog" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/blog">
-                  Velkommen til Blog
+
+              <NavDropdown
+                title="Blog"
+                id="basic-nav-dropdown"
+                menuVariant="dark"
+              >
+                <NavDropdown.Item href="/blog" className="text-center">
+                  Velkommen til Bloggen
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <BlogDropdown />

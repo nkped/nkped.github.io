@@ -18,7 +18,7 @@ export default function BlogPost() {
           <Col>{`${blogPost.titel}`}</Col>
         </Row>
 
-        <Row>
+        <Row className="border-bottom border-warning pb-3">
           <Col>
             <p className="lead">{blogPost.intro}</p>
             <p>{blogPost.text}</p>
