@@ -11,8 +11,8 @@ export default function Om() {
         <Row>
           <Col className="border-bottom border-warning pb-3">
             <p className="lead">
-              Jeg er selv-lærende frontend-udvikler og jeg ønsker at dyggtigøre
-              mig professionelt under en praktik.
+              Selv-lærende frontend-udvikler, der ønsker at dyggtigøre sig
+              professionelt under en praktik.
             </p>
             <p>
               Jeg er uddannet i journalistik og samfundsvidenskab på Roskilde
