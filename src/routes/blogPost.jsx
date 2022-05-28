@@ -1,6 +1,6 @@
 import { getBlogPost } from "../data";
 import { useParams } from "react-router-dom";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Button } from "react-bootstrap";
 
 export default function BlogPost() {
   let params = useParams();
@@ -11,17 +11,24 @@ export default function BlogPost() {
         BlogPost
       </Row>
       <Container className="text-start  px-4 py-5 ">
-        <Row>
-          <Col className="bg-secondary mb-3 py-1">{`#${blogPost.subject}`}</Col>
-        </Row>
-        <Row className="fs-3 fw-bold text-start">
+        <Row className="fs-3 fw-bold text-start mb-2">
           <Col>{`${blogPost.titel}`}</Col>
+        </Row>
+        <Row>
+          <Col className="mb-3 py-1">{`#${blogPost.subject}`}</Col>
         </Row>
 
         <Row className="border-bottom border-warning pb-3">
           <Col>
             <p className="lead">{blogPost.intro}</p>
             <p>{blogPost.text}</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Button variant="primary" href="/blog">
+              Blog
+            </Button>
           </Col>
         </Row>
       </Container>

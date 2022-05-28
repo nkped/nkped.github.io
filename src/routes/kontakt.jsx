@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button, Image, Card } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import { Footer } from "../components/footer";
 import { Telephone, Envelope, Github } from "react-bootstrap-icons";
 

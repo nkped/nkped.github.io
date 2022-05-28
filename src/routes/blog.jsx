@@ -16,7 +16,11 @@ export default function Blog() {
       </Container>
       <Container className="p-4">
         {blogPosts.map((blogPost) => (
-          <Card bg="secondary" key={blogPost.number} className="mb-4">
+          <Card
+            bg="dark"
+            key={blogPost.number}
+            className="mb-4 border border-secondary"
+          >
             <Card.Header>{`#${blogPost.subject}`}</Card.Header>
             <Card.Body>
               <Card.Title>
