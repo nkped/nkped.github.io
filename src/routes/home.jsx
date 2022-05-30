@@ -18,8 +18,8 @@ export default function Home() {
         <Container fluid className="my-4">
           <Image fluid src={YellowHomePageImage} />
         </Container>
-        <Button href="/kontakt" variant="primary" className="w-25 mx-auto my-4">
-          Kontakt
+        <Button href="/kontakt" variant="primary" className="my-4">
+          Kontakt og vilkår
         </Button>
         <Container>
           <Footer />

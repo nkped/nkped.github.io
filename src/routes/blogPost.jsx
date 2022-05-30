@@ -1,6 +1,7 @@
 import { getBlogPost } from "../data";
 import { useParams } from "react-router-dom";
 import { Col, Container, Row, Button } from "react-bootstrap";
+import { ArrowReturnLeft } from "react-bootstrap-icons";
 
 export default function BlogPost() {
   let params = useParams();
@@ -25,8 +26,9 @@ export default function BlogPost() {
           </Col>
         </Row>
         <Row>
-          <Col>
-            <Button variant="primary" href="/blog">
+          <Col className="text-center mt-5">
+            <Button variant="primary" href="/blogPostList">
+              <ArrowReturnLeft className="me-1" />
               Blog
             </Button>
           </Col>
