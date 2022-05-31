@@ -7,7 +7,6 @@ export default function BlogPostList() {
   let blogPosts = getAllBlogPosts();
   return (
     <Container fluid className="bg-dark text-light">
-      <Outlet />
       <Container className="fs-4 fw-semibold text-center">
         <Row>
           <Col>Blogposts</Col>
@@ -25,7 +24,7 @@ export default function BlogPostList() {
               <Card.Title>
                 <Card.Link
                   className="text-decoration-none"
-                  href={`/blogPostList/${blogPost.number}`}
+                  href={`/blog/${blogPost.number}`}
                 >
                   {blogPost.titel}
                 </Card.Link>

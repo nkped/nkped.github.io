@@ -10,7 +10,7 @@ import App from "./App";
 import Om from "./routes/om";
 import Apps from "./routes/apps";
 import Kontakt from "./routes/kontakt";
-import BlogPostList from "./routes/blogPostList";
+import Blog from "./routes/blog";
 import BlogPost from "./routes/blogPost";
 import Home from "./routes/home";
 import NoMatch from "./routes/noMatch";
@@ -29,7 +29,7 @@ root.render(
         <Route path="om" element={<Om />} />
         <Route path="apps" element={<Apps />} />
         <Route path="kontakt" element={<Kontakt />} />
-        <Route path="blogPostList" element={<BlogPostList />}>
+        <Route path="blog" element={<Blog />}>
           <Route index element={<BlogLandingPage />} />
           <Route path=":blogPostId" element={<BlogPost />} />
         </Route>

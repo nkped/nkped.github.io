@@ -24,7 +24,7 @@ export function MyNavBar() {
                 id="basic-nav-dropdown"
                 menuVariant="dark"
               >
-                <NavDropdown.Item href="/blogPostList" className="text-center">
+                <NavDropdown.Item href="/blog" className="text-center">
                   Velkommen til Bloggen
                 </NavDropdown.Item>
                 <NavDropdown.Divider />

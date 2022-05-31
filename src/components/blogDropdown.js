@@ -8,7 +8,7 @@ export default function BlogDropdown() {
       <nav>
         {blogPosts.map((blogPost) => (
           <NavDropdown.Item
-            href={`/blogPostList/${blogPost.number}`}
+            href={`/blog/${blogPost.number}`}
             key={blogPost.number}
             className="text-center"
           >
