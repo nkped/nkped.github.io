@@ -25,7 +25,7 @@ export default function BlogPostList() {
               <Card.Title>
                 <Card.Link
                   className="text-decoration-none"
-                  href={`/blog/${blogPost.number}`}
+                  href={`/blogPostList/${blogPost.number}`}
                 >
                   {blogPost.titel}
                 </Card.Link>
