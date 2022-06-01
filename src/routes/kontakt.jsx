@@ -1,6 +1,6 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Footer } from "../components/footer";
-import { Telephone, Envelope, Github } from "react-bootstrap-icons";
+import { Telephone, Envelope, Github, Linkedin } from "react-bootstrap-icons";
 
 export default function Kontakt() {
   return (
@@ -66,6 +66,13 @@ export default function Kontakt() {
           <Card.Body>
             <Github color="orange" size={40} className=" mb-3" />
             <Card.Title>nikrpedev@gmail.com</Card.Title>
+          </Card.Body>
+        </Card>
+
+        <Card className="my-4 bg-secondary">
+          <Card.Body>
+            <Linkedin color="orange" size={40} className=" mb-3" />
+            <Card.Title>Nils-Kristian Pedersen</Card.Title>
           </Card.Body>
         </Card>
       </Container>
