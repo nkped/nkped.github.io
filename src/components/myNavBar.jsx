@@ -18,16 +18,13 @@ export function MyNavBar() {
               <Nav.Link href="/kontakt">Kontakt</Nav.Link>
               <Nav.Link href="/om">Om</Nav.Link>
               <Nav.Link href="/apps">Apps</Nav.Link>
+              <Nav.Link href="/blog">Blog</Nav.Link>
 
               <NavDropdown
-                title="Blog"
+                title="Seneste Posts"
                 id="basic-nav-dropdown"
                 menuVariant="dark"
               >
-                <NavDropdown.Item href="/blog" className="text-center">
-                  Velkommen til Bloggen
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
                 <BlogDropdown />
               </NavDropdown>
             </Nav>

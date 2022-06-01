@@ -8,7 +8,7 @@ import "./index.css";
 //Routes
 import App from "./App";
 import Om from "./routes/om";
-import Apps from "./routes/apps";
+import Skills from "./routes/skills";
 import Kontakt from "./routes/kontakt";
 import Blog from "./routes/blog";
 import BlogPost from "./routes/blogPost";
@@ -27,7 +27,7 @@ root.render(
       <Route path="/" element={<App />}>
         <Route index element={<Home />} />
         <Route path="om" element={<Om />} />
-        <Route path="apps" element={<Apps />} />
+        <Route path="skills" element={<Skills />} />
         <Route path="kontakt" element={<Kontakt />} />
         <Route path="blog" element={<Blog />}>
           <Route index element={<BlogLandingPage />} />
