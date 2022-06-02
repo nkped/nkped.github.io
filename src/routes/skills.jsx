@@ -8,9 +8,7 @@ export default function Skills() {
         <Col>
           <Card>
             <Card.Body>
-              <Card.Img>
-                <ReactJS />
-              </Card.Img>
+              <Card.Img></Card.Img>
               <Card.Title>ReactJS</Card.Title>
             </Card.Body>
           </Card>

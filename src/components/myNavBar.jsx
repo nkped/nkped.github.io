@@ -17,7 +17,7 @@ export function MyNavBar() {
             <Nav className="me-auto">
               <Nav.Link href="/kontakt">Kontakt</Nav.Link>
               <Nav.Link href="/om">Om</Nav.Link>
-              <Nav.Link href="/apps">Apps</Nav.Link>
+              <Nav.Link href="/skills">Skills</Nav.Link>
               <Nav.Link href="/blog">Blog</Nav.Link>
 
               <NavDropdown
