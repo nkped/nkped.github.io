@@ -14,36 +14,42 @@ export default function Kontakt() {
         </Row>
         <Row>
           <Col>
-            <span className="lead">Praktik er gratis</span> for virksomheden
-            (pånær frokost og kontorplads).
+            <span className="lead text-warning">Gratis </span>- virksomheden
+            skal blot sørge for frokost og kontorplads.
           </Col>
         </Row>
         <Row>
           <Col>
-            <span className="lead">Formålet med praktik</span> er primært
-            joberfaring - ikke nødvendigvis job i samme virksomhed
+            <span className="lead text-warning">Formålet </span>med praktik er
+            primært joberfaring - ikke nødvendigvis job i samme virksomhed
             efterfølgende.
           </Col>
         </Row>
         <Row>
           <Col>
-            <span className="lead">Varighed for praktik</span> er i
+            <span className="lead text-warning">Varighed </span>for praktik er i
             udgangspunktet tre måneder.
           </Col>
         </Row>
         <Row>
           <Col>
-            <span className="lead">Min rolle som praktikant</span> skal
-            selvfølgelig primært udvikle mig som programmør. Jeg er dog åben
-            overfor at bidrage på andre områder for, at det giver mening for
-            virksomheden at have et føl gående. Jeg har fx været primær
-            website-skribent for founthouse.dk, mødebooker for Nerd Productions
-            samt manusforfatter på engelsk-sproglig pr-video for Citizen Dane.
+            <span className="lead text-warning">Min rolle</span> som praktikant
+            skal selvfølgelig primært udvikle mig som programmør. Jeg er dog
+            åben overfor at bidrage på andre områder for, at det giver mening
+            for virksomheden at have et føl gående.
           </Col>
         </Row>
         <Row>
           <Col>
-            <span className="lead">Skriv eller ring</span> på nedenstående info.
+            Jeg har fx været primær website-skribent for founthouse.dk,
+            mødebooker for Nerd Productions samt manusforfatter på
+            engelsk-sproglig pr-video for Citizen Dane (se referencer nederst).
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <span className="lead text-warning">Skriv eller ring</span> på
+            nedenstående info.
           </Col>
         </Row>
       </Container>

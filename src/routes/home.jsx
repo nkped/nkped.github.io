@@ -4,6 +4,8 @@ import { Footer } from "../components/footer";
 //import BlueHomePageImage from "./BlueHomePageImage.svg";
 import YellowHomePageImage from "./YellowHomePageImage.svg";
 
+import { ArrowRight } from "react-bootstrap-icons";
+
 export default function Home() {
   return (
     <Container fluid className="bg-dark text-light">
@@ -19,7 +21,8 @@ export default function Home() {
           <Image fluid src={YellowHomePageImage} />
         </Container>
         <Button href="/kontakt" variant="primary" className="my-4">
-          Kontakt og vilkår
+          Kontakt og info
+          <ArrowRight className="ms-1" />
         </Button>
         <Container>
           <Footer />
