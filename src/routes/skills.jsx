@@ -15,6 +15,7 @@ import {
 import { DiVisualstudio } from "react-icons/di";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiLighthouse } from "react-icons/si";
+import { Telephone } from "react-bootstrap-icons";
 import { Footer } from "../components/footer";
 
 export default function Skills() {

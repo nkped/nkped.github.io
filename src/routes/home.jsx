@@ -24,6 +24,14 @@ export default function Home() {
           Kontakt og info
           <ArrowRight className="ms-1" />
         </Button>
+        <Container className="text-center text-muted">
+          <Row>
+            <Col>Venlig hilsen</Col>
+          </Row>
+          <Row>
+            <Col>Nils-Kristian Pedersen</Col>
+          </Row>
+        </Container>
         <Container>
           <Footer />
         </Container>
