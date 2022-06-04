@@ -29,14 +29,14 @@ const root = ReactDOMClient.createRoot(rootElement);
 root.render(
   <Router>
     <Routes>
-      <Route path="/" element={<App />}>
+      <Route exact path="/" element={<App />}>
         <Route index element={<Home />} />
-        <Route path="om" element={<Om />} />
-        <Route path="skills" element={<Skills />} />
-        <Route path="kontakt" element={<Kontakt />} />
-        <Route path="blog" element={<Blog />}>
-          <Route index element={<BlogLandingPage />} />
-          <Route path=":blogPostId" element={<BlogPost />} />
+        <Route exact path="om" element={<Om />} />
+        <Route exact path="skills" element={<Skills />} />
+        <Route exact path="kontakt" element={<Kontakt />} />
+        <Route exact path="blog" element={<Blog />}>
+          <Route exact index element={<BlogLandingPage />} />
+          <Route exact path=":blogPostId" element={<BlogPost />} />
         </Route>
         <Route path="*" element={<NoMatch />} />
       </Route>
