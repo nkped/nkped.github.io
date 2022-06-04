@@ -12,7 +12,7 @@ export default function Home() {
       <Container className="px-5 pt-3">
         <Row>
           <Col className="fs-2 fw-semibold">
-            Frontend-udvikler søger{" "}
+            Frontend-udvikler kl 1619 søger{" "}
             <span className="fs-1 text-warning">praktikplads</span>
           </Col>
         </Row>
