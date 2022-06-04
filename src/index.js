@@ -36,5 +36,5 @@ root.render(
         <Route path="*" element={<NoMatch />} />
       </Route>
     </Routes>
-  </Hashgit Router>
+  </HashRouter>
 );
