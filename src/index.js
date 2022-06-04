@@ -2,7 +2,12 @@
 import { StrictMode } from "react";
 import * as ReactDOMClient from "react-dom/client";
 //Remember at deploy - switch to HashRouter!
-import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter,
+  HashRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 //Styles
 import "./index.css";
 //Routes
@@ -22,7 +27,7 @@ import reportWebVitals from "./reportWebVitals";
 const rootElement = document.getElementById("root");
 const root = ReactDOMClient.createRoot(rootElement);
 root.render(
-  <HashRouter>
+  <Router>
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<Home />} />
@@ -36,5 +41,5 @@ root.render(
         <Route path="*" element={<NoMatch />} />
       </Route>
     </Routes>
-  </HashRouter>
+  </Router>
 );
