@@ -12,7 +12,7 @@ export default function Home() {
       <Container className="px-5 pt-3">
         <Row>
           <Col className="fs-2 fw-semibold">
-            Frontend-udvikler kl 1619 søger{" "}
+            Frontend-udvikler kl 2138 søger{" "}
             <span className="fs-1 text-warning">praktikplads</span>
           </Col>
         </Row>
@@ -20,7 +20,7 @@ export default function Home() {
         <Container fluid className="my-4">
           <Image fluid src={YellowHomePageImage} />
         </Container>
-        <Button href="/kontakt" variant="primary" className="my-4">
+        <Button href="/#/kontakt" variant="primary" className="my-4">
           Kontakt og info
           <ArrowRight className="ms-1" />
         </Button>

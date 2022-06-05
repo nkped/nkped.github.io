@@ -27,7 +27,7 @@ export default function BlogPost() {
         </Row>
         <Row>
           <Col className="text-center mt-5">
-            <Button variant="primary" href="/blog">
+            <Button variant="primary" href="/#/blog">
               <ArrowReturnLeft className="me-1" />
               Blog
             </Button>
