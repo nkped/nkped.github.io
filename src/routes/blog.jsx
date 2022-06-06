@@ -7,7 +7,7 @@ import { Footer } from "../components/footer";
 export default function Blog() {
   const [open, setOpen] = useState(false);
   return (
-    <Container className="bg-dark text-light">
+    <Container fluid className="vh-100 bg-dark text-light">
       <Outlet />
       <Button
         onClick={() => setOpen(!open)}

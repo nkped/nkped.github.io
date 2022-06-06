@@ -1,9 +1,10 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Pen } from "react-bootstrap-icons";
+import { Footer } from "../components/footer";
 
 export default function BlogLandingPage() {
   return (
-    <Container>
+    <Container fluid className="">
       <Container className="fs-1 fw-semibold mb-2 text-muted">
         <Row>Blog</Row>
       </Container>

@@ -4,7 +4,7 @@ import { Telephone, Envelope, Github, Linkedin } from "react-bootstrap-icons";
 
 export default function Kontakt() {
   return (
-    <Container className="bg-dark text-light">
+    <Container fluid className="bg-dark text-light">
       <Container className="fs-1 fw-semibold mb-2 pb-1 text-muted  border-bottom border-warning">
         <Row>Info</Row>
       </Container>

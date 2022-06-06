@@ -3,13 +3,14 @@ import { Footer } from "../components/footer";
 
 export default function Om() {
   return (
-    <Container fluid className="bg-dark text-light">
-      <Container className="fs-1 fw-semibold mb-2 text-muted">
+    <Container fluid className="sm bg-dark text-light">
+      <Container className="border-bottom border-warning fs-1 fw-semibold mb-4 text-muted">
         <Row>Om</Row>
       </Container>
-      <Container className="text-start px-5 py-5 border-top border-warning">
+      <Container className=" text-start p-5">
         <Row>
-          <Col className="border-bottom border-warning pb-3">
+          <Col md={2} lg={3}></Col>
+          <Col md={8} lg={6} className="border-bottom border-warning pb-5">
             <p className="lead">
               Selv-lærende frontend-udvikler, der ønsker at dyggtigøre sig
               professionelt under en praktik.
@@ -35,9 +36,10 @@ export default function Om() {
             samvittighedsfuld kollega.
             <p></p>
           </Col>
+          <Col md={2} lg={3}></Col>
         </Row>
-        <Footer />
       </Container>
+      <Footer />
     </Container>
   );
 }
