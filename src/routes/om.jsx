@@ -10,7 +10,7 @@ export default function Om() {
       <Container className=" text-start p-5">
         <Row>
           <Col md={2} lg={3}></Col>
-          <Col md={8} lg={6} className="border-bottom border-warning pb-5">
+          <Col md={8} lg={6}>
             <p className="lead">
               Selv-lærende frontend-udvikler, der ønsker at dyggtigøre sig
               professionelt under en praktik.
