@@ -19,35 +19,35 @@ export default function Kontakt() {
         <Row>
           <Col md={2} lg={3}></Col>
           <Col md={8} lg={6}>
-            <p>
+            <Col>
               <span className="lead text-warning">Gratis </span>- virksomheden
               skal blot sørge for frokost og kontorplads.
-            </p>
-            <p>
+            </Col>
+            <Col>
               <span className="lead text-warning">Formålet </span>med praktik er
               primært joberfaring - ikke nødvendigvis job i samme virksomhed
               efterfølgende.
-            </p>
-            <p>
+            </Col>
+            <Col>
               <span className="lead text-warning">Varighed </span>for praktik er
               i udgangspunktet tre måneder.
-            </p>
-            <p>
+            </Col>
+            <Col>
               <span className="lead text-warning">Min rolle</span> som
               praktikant skal selvfølgelig primært udvikle mig som programmør.
               Jeg er dog åben overfor at bidrage på andre områder for, at det
               giver mening for virksomheden at have et føl gående.
-            </p>
-            <p>
+            </Col>
+            <Col>
               <span className="lead text-warning"> Jeg har erfaring</span> som
               primær website-skribent for founthouse.dk, mødebooker for Nerd
               Productions samt manusforfatter på engelsk-sproglig pr-video for
               Citizen Dane (se referencer nederst).
-            </p>
-            <p>
+            </Col>
+            <Col>
               <span className="lead text-warning">Skriv eller ring</span> på
               nedenstående info.
-            </p>
+            </Col>
           </Col>
           <Col md={2} lg={3}></Col>
         </Row>
@@ -55,34 +55,34 @@ export default function Kontakt() {
           gap={4}
           className="col-8 col-sm-7 col-md-5 col-lg-4 mx-auto mt-5 text-center"
         >
-          <Card className="bg-secondary">
+          <Card border="warning" className="bg-dark bg-gradient bg-border">
             <Card.Body>
               <Telephone color="orange" size={40} className=" mb-3" />
               <Card.Title>6088 7055</Card.Title>
             </Card.Body>
           </Card>
 
-          <Card className="bg-secondary">
+          <Card border="warning" className="bg-dark bg-gradient bg-border">
             <Card.Body>
               <Envelope color="orange" size={40} className=" mb-3" />
               <Card.Title>nikrpe@gmail.com</Card.Title>
             </Card.Body>
           </Card>
 
-          <Card className="bg-secondary">
+          <Card border="warning" className="bg-dark bg-gradient bg-border">
             <Card.Body>
               <Github color="orange" size={40} className=" mb-3" />
               <Card.Title>nikrpedev@gmail.com</Card.Title>
             </Card.Body>
           </Card>
 
-          <Card className="bg-secondary">
+          <Card border="warning" className="bg-dark bg-gradient bg-border">
             <Card.Body>
               <Linkedin color="orange" size={40} className=" mb-3" />
               <Card.Title>Nils-Kristian Pedersen</Card.Title>
             </Card.Body>
           </Card>
-          <Card className="bg-secondary">
+          <Card border="warning" className="bg-dark bg-gradient bg-border">
             <Card.Body>
               <Telephone color="orange" size={40} className=" mb-3" />
               <Card.Title>Founthouse.dk</Card.Title>
@@ -91,7 +91,7 @@ export default function Kontakt() {
               <Card.Text>Stilling: Ejer</Card.Text>
             </Card.Body>
           </Card>
-          <Card className="bg-secondary">
+          <Card border="warning" className="bg-dark bg-gradient bg-border">
             <Card.Body>
               <Telephone color="orange" size={40} className=" mb-3" />
               <Card.Title>Citizen Dane</Card.Title>
@@ -101,7 +101,7 @@ export default function Kontakt() {
             </Card.Body>
           </Card>
 
-          <Card className="bg-secondary">
+          <Card border="warning" className="bg-dark bg-gradient bg-border">
             <Card.Body>
               <Telephone color="orange" size={40} className=" mb-3" />
               <Card.Title>Nerd Productions</Card.Title>
