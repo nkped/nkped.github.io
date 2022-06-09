@@ -42,136 +42,157 @@ export default function Skills() {
             ikke som skills for nuværende.
           </Col>
         </Stack>
-        <Container fluid className="d-grid gap-3">
-          <Row>
-            <Col>
-              <Card border="warning" className="bg-dark bg-gradient bg-border">
-                <Card.Body>
-                  <FaReact />
-                  <Card.Title>ReactJS</Card.Title>
-                </Card.Body>
-              </Card>
-            </Col>
 
-            <Col>
-              <Card border="warning" className="bg-dark bg-gradient bg-border">
-                <Card.Body>
-                  <FaBootstrap />
-                  <Card.Title>Bootstrap</Card.Title>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <Card border="warning" className="bg-dark bg-gradient bg-border">
-                <Card.Body>
-                  <FaGit />
-                  <Card.Title>Git</Card.Title>
-                </Card.Body>
-              </Card>
-            </Col>
+        <Row className="justify-content-center gap-4 py-4 mt-4 row-cols-xs-2 row-cols-sm-3 row-cols-lg-4">
+          <Col className="col-auto">
+            <Card className="bg-dark bg-gradient border-warning px-3">
+              <Card.Body>
+                <FaReact />
+                <Card.Title>ReactJS</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
 
-            <Col>
-              <Card border="warning" className="bg-dark bg-gradient bg-border">
-                <Card.Body>
-                  <FaGithub />
-                  <Card.Title>Github</Card.Title>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <Card border="warning" className="bg-dark bg-gradient bg-border">
-                <Card.Body>
-                  <FaLinux />
-                  <Card.Title>Linux</Card.Title>
-                </Card.Body>
-              </Card>
-            </Col>
+          <Col className="col-auto">
+            <Card
+              border="warning"
+              className="bg-dark bg-gradient bg-border px-3"
+            >
+              <Card.Body>
+                <FaBootstrap />
+                <Card.Title>Bootstrap</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className="col-auto">
+            <Card
+              border="warning"
+              className="bg-dark bg-gradient bg-border px-3"
+            >
+              <Card.Body>
+                <FaGit />
+                <Card.Title>Git</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
 
-            <Col>
-              <Card border="warning" className="bg-dark bg-gradient bg-border">
-                <Card.Body>
-                  <DiVisualstudio />
-                  <Card.Title>Visual Studiocode</Card.Title>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <Card border="warning" className="bg-dark bg-gradient bg-border">
-                <Card.Body>
-                  <FaJs />
-                  <Card.Title>JavaScript</Card.Title>
-                </Card.Body>
-              </Card>
-            </Col>
+          <Col className="col-auto">
+            <Card
+              border="warning"
+              className="bg-dark bg-gradient bg-border px-3"
+            >
+              <Card.Body>
+                <FaGithub />
+                <Card.Title>Github</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
 
-            <Col>
-              <Card border="warning" className="bg-dark bg-gradient bg-border">
-                <Card.Body>
-                  <FaSass />
-                  <Card.Title>Scss</Card.Title>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <Card border="warning" className="bg-dark bg-gradient bg-border">
-                <Card.Body>
-                  <FaCss3 />
-                  <Card.Title>Css</Card.Title>
-                </Card.Body>
-              </Card>
-            </Col>
+          <Col className="col-auto">
+            <Card
+              border="warning"
+              className="bg-dark bg-gradient bg-border px-3"
+            >
+              <Card.Body>
+                <FaLinux />
+                <Card.Title>Linux</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
 
-            <Col>
-              <Card border="warning" className="bg-dark bg-gradient bg-border">
-                <Card.Body>
-                  <FaHtml5 />
-                  <Card.Title>Html</Card.Title>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-          <Stack
-            gap={5}
-            className="col-9 col-sm-8 col-md-7 col-lg-5 mx-auto my-5 pt-4 text-center"
-          >
-            <Col className="fs-5 text-center mt-3 mb-1">
-              Min målsætning fremover
-            </Col>
-            <Col>
-              Jeg er solgt på ideen om PWA's, der lever på nettet fremfor i
-              AppStore/GooglePlay, og som virker på alle platforme med blot een
-              codebase.
-            </Col>
-            <Col>De næste skills må derfor være test samt server-side.</Col>
-          </Stack>
-          <Row>
-            <Col>
-              <Card border="warning" className="bg-dark bg-gradient bg-border">
-                <Card.Body>
-                  <SiLighthouse />
-                  <Card.Title>Lighthouse</Card.Title>
-                </Card.Body>
-              </Card>
-            </Col>
+          <Col className="col-auto">
+            <Card
+              border="warning"
+              className="bg-dark bg-gradient bg-border px-3"
+            >
+              <Card.Body>
+                <DiVisualstudio />
+                <Card.Title>Visual</Card.Title>
+                <Card.Title>Studiocode</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className="col-auto">
+            <Card
+              border="warning"
+              className="bg-dark bg-gradient bg-border px-3"
+            >
+              <Card.Body>
+                <FaJs />
+                <Card.Title>JavaScript</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
 
-            <Col>
-              <Card border="warning" className="bg-dark bg-gradient bg-border">
-                <Card.Body>
-                  <TbBrandNextjs />
-                  <Card.Title>NextJS</Card.Title>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
+          <Col className="col-auto">
+            <Card
+              border="warning"
+              className="bg-dark bg-gradient bg-border px-3"
+            >
+              <Card.Body>
+                <FaSass />
+                <Card.Title>Scss</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col className="col-auto">
+            <Card
+              border="warning"
+              className="bg-dark bg-gradient bg-border px-3"
+            >
+              <Card.Body>
+                <FaCss3 />
+                <Card.Title>Css</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col className="col-auto">
+            <Card
+              border="warning"
+              className="bg-dark bg-gradient bg-border px-3"
+            >
+              <Card.Body>
+                <FaHtml5 />
+                <Card.Title>Html</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <Stack
+          gap={5}
+          className="col-9 col-sm-8 col-md-7 col-lg-5 mx-auto my-5 pt-4 text-center"
+        >
+          <Col className="fs-5 text-center mt-3 mb-1">
+            Min målsætning fremover
+          </Col>
+          <Col>
+            Jeg er solgt på ideen om PWA's, der lever på nettet fremfor i
+            AppStore/GooglePlay, og som virker på alle platforme med blot een
+            codebase.
+          </Col>
+          <Col>De næste skills må derfor være test samt server-side.</Col>
+        </Stack>
+        <Row>
+          <Col>
+            <Card border="warning" className="bg-dark bg-gradient bg-border">
+              <Card.Body>
+                <SiLighthouse />
+                <Card.Title>Lighthouse</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card border="warning" className="bg-dark bg-gradient bg-border">
+              <Card.Body>
+                <TbBrandNextjs />
+                <Card.Title>NextJS</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
         <Footer />
       </Container>
     </Container>
