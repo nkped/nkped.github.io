@@ -42,10 +42,9 @@ export default function Skills() {
             ikke som skills for nuværende.
           </Col>
         </Stack>
-
-        <Row className="justify-content-center gap-4 py-4 mt-4 row-cols-xs-2 row-cols-sm-3 row-cols-lg-4">
-          <Col className="col-auto">
-            <Card className="bg-dark bg-gradient border-warning px-3">
+        <Row className=" justify-content-center py-4 mt-4 row-cols-xs-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+            <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaReact />
                 <Card.Title>ReactJS</Card.Title>
@@ -53,22 +52,16 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-auto">
-            <Card
-              border="warning"
-              className="bg-dark bg-gradient bg-border px-3"
-            >
+          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+            <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaBootstrap />
                 <Card.Title>Bootstrap</Card.Title>
               </Card.Body>
             </Card>
           </Col>
-          <Col className="col-auto">
-            <Card
-              border="warning"
-              className="bg-dark bg-gradient bg-border px-3"
-            >
+          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+            <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaGit />
                 <Card.Title>Git</Card.Title>
@@ -76,11 +69,8 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-auto">
-            <Card
-              border="warning"
-              className="bg-dark bg-gradient bg-border px-3"
-            >
+          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+            <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaGithub />
                 <Card.Title>Github</Card.Title>
@@ -88,11 +78,8 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-auto">
-            <Card
-              border="warning"
-              className="bg-dark bg-gradient bg-border px-3"
-            >
+          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+            <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaLinux />
                 <Card.Title>Linux</Card.Title>
@@ -100,11 +87,8 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-auto">
-            <Card
-              border="warning"
-              className="bg-dark bg-gradient bg-border px-3"
-            >
+          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+            <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <DiVisualstudio />
                 <Card.Title>Visual</Card.Title>
@@ -112,11 +96,8 @@ export default function Skills() {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="col-auto">
-            <Card
-              border="warning"
-              className="bg-dark bg-gradient bg-border px-3"
-            >
+          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+            <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaJs />
                 <Card.Title>JavaScript</Card.Title>
@@ -124,11 +105,8 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-auto">
-            <Card
-              border="warning"
-              className="bg-dark bg-gradient bg-border px-3"
-            >
+          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+            <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaSass />
                 <Card.Title>Scss</Card.Title>
@@ -136,11 +114,8 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-auto">
-            <Card
-              border="warning"
-              className="bg-dark bg-gradient bg-border px-3"
-            >
+          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+            <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaCss3 />
                 <Card.Title>Css</Card.Title>
@@ -148,11 +123,8 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-auto">
-            <Card
-              border="warning"
-              className="bg-dark bg-gradient bg-border px-3"
-            >
+          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+            <Card className="bg-dark bg-gradient border-warning  text-nowrap">
               <Card.Body>
                 <FaHtml5 />
                 <Card.Title>Html</Card.Title>
