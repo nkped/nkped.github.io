@@ -1,6 +1,7 @@
 import { Container, Row, Col, Card, Stack } from "react-bootstrap";
 import { Footer } from "../components/footer";
 import { Telephone, Envelope, Github, Linkedin } from "react-bootstrap-icons";
+import { FaHandshake, FaUserTie } from "react-icons/fa";
 
 export default function Kontakt() {
   return (
@@ -9,13 +10,18 @@ export default function Kontakt() {
         <Row className="fs-1 fw-semibold mb-2 pb-1 text-muted  border-bottom border-warning">
           Info
         </Row>
+
+        <Stack className="py-5 mt-3 gap-2 fs-1 fw-bold text-center mb-2">
+          <Col>Vilkår for praktik </Col>
+          <Col>
+            <FaHandshake />
+          </Col>
+        </Stack>
+
         <Stack
           gap={4}
-          className=" mx-auto my-5 pt-4 text-start col-9 col-sm-8 col-md-7 col-lg-5"
+          className=" mx-auto py-3 text-start col-9 col-sm-8 col-md-7 col-lg-5"
         >
-          <Row className="fs-3 fw-bold text-start mb-2">
-            <Col>Vilkår for praktik</Col>
-          </Row>
           <Row>
             <Col>
               <span className="lead text-warning">Gratis </span>- virksomheden
@@ -59,7 +65,7 @@ export default function Kontakt() {
           </Row>
         </Stack>
 
-        <Row className="justify-content-center gap-4 my-4 row-cols-xs-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4">
+        <Row className="justify-content-center gap-4 py-5 row-cols-xs-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4">
           <Col className="col-7 col-sm-7 col-md-5 col-lg-4 col-xl-auto">
             <Card className="bg-dark bg-gradient bg-border border-warning">
               <Card.Body>
@@ -94,10 +100,13 @@ export default function Kontakt() {
             </Card>
           </Col>
         </Row>
-        <Row>
-          <Col className="fs-4 fw-bold text-center my-4">Referencer</Col>
+        <Row className="py-5 gap-2 fs-4 fw-bold text-center row-cols-1">
+          <Col>Referencer</Col>
+          <Col>
+            <FaUserTie />
+          </Col>
         </Row>
-        <Row className="justify-content-center gap-4 row-cols-xs-1 row-cols-sm-2 row-cols-md-3">
+        <Row className="pb-2 justify-content-center gap-4 row-cols-xs-1 row-cols-sm-2 row-cols-md-3">
           <Col className="col-7 col-sm-7 col-md-3">
             <Card className="bg-dark bg-gradient bg-border border-warning">
               <Card.Body>
@@ -138,10 +147,3 @@ export default function Kontakt() {
     </Container>
   );
 }
-
-/*
-
-
-          
-
-          */
