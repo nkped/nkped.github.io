@@ -22,12 +22,12 @@ export default function Skills() {
   return (
     <Container fluid className="bg-dark text-light">
       <Container>
-        <Row className="fs-1 fw-semibold mb-2 pb-1 text-muted  border-bottom border-warning">
+        <Row className="fs-1 fw-semibold mb-2 text-muted  border-bottom border-warning">
           Skills
         </Row>
         <Stack
           gap={4}
-          className=" mx-auto my-5 pt-4 text-center col-9 col-sm-8 col-md-7 col-lg-5"
+          className=" mx-auto py-5 mt-5 text-center col-9 col-sm-8 col-md-7 col-lg-5"
         >
           <Col>
             Her er min nuværende 'tech-stack' beskrevet - rub og stub er med.{" "}
@@ -42,8 +42,9 @@ export default function Skills() {
             ikke som skills for nuværende.
           </Col>
         </Stack>
-        <Row className=" justify-content-center py-4 mt-4 row-cols-xs-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
-          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+
+        <Row className="justify-content-center gy-4 py-4 row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-5">
+          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaReact />
@@ -52,7 +53,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaBootstrap />
@@ -60,7 +61,8 @@ export default function Skills() {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+
+          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaGit />
@@ -69,7 +71,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaGithub />
@@ -78,25 +80,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
-            <Card className="bg-dark bg-gradient border-warning text-nowrap">
-              <Card.Body>
-                <FaLinux />
-                <Card.Title>Linux</Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
-            <Card className="bg-dark bg-gradient border-warning text-nowrap">
-              <Card.Body>
-                <DiVisualstudio />
-                <Card.Title>Visual</Card.Title>
-                <Card.Title>Studiocode</Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaJs />
@@ -105,7 +89,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaSass />
@@ -114,7 +98,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaCss3 />
@@ -123,7 +107,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-auto col-sm-auto col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning  text-nowrap">
               <Card.Body>
                 <FaHtml5 />
@@ -131,23 +115,43 @@ export default function Skills() {
               </Card.Body>
             </Card>
           </Col>
+
+          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+            <Card className="bg-dark bg-gradient border-warning text-nowrap">
+              <Card.Body>
+                <FaLinux />
+                <Card.Title>Linux</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+            <Card className="bg-dark bg-gradient border-warning text-nowrap">
+              <Card.Body>
+                <DiVisualstudio />
+                <Card.Title>Visual</Card.Title>
+                <Card.Title>Studiocode</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
         <Stack
-          gap={5}
-          className="col-9 col-sm-8 col-md-7 col-lg-5 mx-auto my-5 pt-4 text-center"
+          gap={4}
+          className="py-4 mt-2 mx-auto text-center col-9 col-sm-8 col-md-7 col-lg-5 "
         >
-          <Col className="fs-5 text-center mt-3 mb-1">
+          <Col className="fs-4 text-center mt-3 mb-1">
             Min målsætning fremover
           </Col>
           <Col>
             Jeg er solgt på ideen om PWA's, der lever på nettet fremfor i
-            AppStore/GooglePlay, og som virker på alle platforme med blot een
-            codebase.
+            AppStore/GooglePlay, og som virker på alle platforme ud fra een og
+            samme codebase.
           </Col>
           <Col>De næste skills må derfor være test samt server-side.</Col>
         </Stack>
-        <Row>
-          <Col>
+
+        <Row className="gy-4 py-5 justify-content-center text-nowrap row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-5">
+          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
             <Card border="warning" className="bg-dark bg-gradient bg-border">
               <Card.Body>
                 <SiLighthouse />
@@ -156,7 +160,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col>
+          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
             <Card border="warning" className="bg-dark bg-gradient bg-border">
               <Card.Body>
                 <TbBrandNextjs />
@@ -170,6 +174,3 @@ export default function Skills() {
     </Container>
   );
 }
-
-/*col-8 col-sm-7 col-md-5 col-lg-4 mx-auto mt-5 text-center */
-/* */
