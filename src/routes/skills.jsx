@@ -11,11 +11,11 @@ import {
   FaHtml5,
   FaLinux,
   FaRegGrinWink,
+  FaRocket,
 } from "react-icons/fa";
 import { DiVisualstudio } from "react-icons/di";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiLighthouse } from "react-icons/si";
-import { Telephone } from "react-bootstrap-icons";
 import { Footer } from "../components/footer";
 
 export default function Skills() {
@@ -29,9 +29,8 @@ export default function Skills() {
           gap={4}
           className=" mx-auto py-5 mt-5 text-center col-9 col-sm-8 col-md-7 col-lg-5"
         >
-          <Col>
-            Her er min nuværende 'tech-stack' beskrevet - rub og stub er med.{" "}
-            <FaRegGrinWink />
+          <Col className="fs-3 fw-semibold mb-2">
+            Min nuværende 'tech-stack' - rub og stub er med. <FaRegGrinWink />
           </Col>
           <Col>
             Jeg er selvfølgelig ikke ekspert, men habil i basics, og super
@@ -43,8 +42,8 @@ export default function Skills() {
           </Col>
         </Stack>
 
-        <Row className="justify-content-center gy-4 py-4 row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-5">
-          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+        <Row className="justify-content-center gy-4 py-4 row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+          <Col className="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaReact />
@@ -53,7 +52,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaBootstrap />
@@ -62,7 +61,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaGit />
@@ -71,7 +70,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaGithub />
@@ -80,7 +79,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaJs />
@@ -89,7 +88,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaSass />
@@ -98,7 +97,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaCss3 />
@@ -107,7 +106,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning  text-nowrap">
               <Card.Body>
                 <FaHtml5 />
@@ -116,7 +115,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <FaLinux />
@@ -125,7 +124,7 @@ export default function Skills() {
             </Card>
           </Col>
 
-          <Col className="col-xs-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+          <Col className="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
             <Card className="bg-dark bg-gradient border-warning text-nowrap">
               <Card.Body>
                 <DiVisualstudio />
@@ -140,14 +139,14 @@ export default function Skills() {
           className="py-4 mt-2 mx-auto text-center col-9 col-sm-8 col-md-7 col-lg-5 "
         >
           <Col className="fs-4 text-center mt-3 mb-1">
-            Min målsætning fremover
+            Næste læringsmål <FaRocket />
           </Col>
           <Col>
             Jeg er solgt på ideen om PWA's, der lever på nettet fremfor i
             AppStore/GooglePlay, og som virker på alle platforme ud fra een og
             samme codebase.
           </Col>
-          <Col>De næste skills må derfor være test samt server-side.</Col>
+          <Col>De næste skills må derfor omhandle test samt server-side.</Col>
         </Stack>
 
         <Row className="gy-4 py-5 justify-content-center text-nowrap row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-5">
