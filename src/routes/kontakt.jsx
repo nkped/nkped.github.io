@@ -24,8 +24,8 @@ export default function Kontakt() {
         >
           <Row>
             <Col>
-              <span className="lead text-warning">Gratis </span>- virksomheden
-              skal blot sørge for frokost og kontorplads.
+              <span className="lead text-warning">Praktik er gratis </span>-
+              virksomhed skal blot sørge for frokost og kontorplads.
             </Col>
           </Row>
           <Row>

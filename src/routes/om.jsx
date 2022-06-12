@@ -1,5 +1,6 @@
 import { Container, Row, Col, Stack } from "react-bootstrap";
 import { Footer } from "../components/footer";
+import { FaRegNewspaper } from "react-icons/fa";
 
 export default function Om() {
   return (
@@ -16,11 +17,13 @@ export default function Om() {
               professionelt under en praktik.
             </Col>
           </Row>
+
+          <Row></Row>
           <Row>
             <Col className="mx-auto col-10 col-sm-9 col-md-7 col-lg-6 col-xl-5">
-              Jeg er uddannet i journalistik og samfundsvidenskab på Roskilde
-              Universitet, og har mange gode erfaringer i bagagen som leverandør
-              af web-content, både journalistik, hjemmeside-tekst samt pr-video.
+              Uddannet i journalistik og samfundsvidenskab på RUC, og har mange
+              gode erfaringer i bagagen som leverandør af web-content, både
+              journalistik, hjemmeside-tekst samt pr-video.
             </Col>
           </Row>
           <Row>

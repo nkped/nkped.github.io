@@ -4,7 +4,7 @@ import { Footer } from "../components/footer";
 //import BlueHomePageImage from "./BlueHomePageImage.svg";
 import YellowHomePageImage from "./YellowHomePageImage.svg";
 
-import { ArrowRight } from "react-bootstrap-icons";
+import { ArrowRight, Stars } from "react-bootstrap-icons";
 
 export default function Home() {
   return (

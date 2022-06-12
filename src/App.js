@@ -22,7 +22,13 @@ import { MyNavBar } from "./components/myNavBar";
 function App() {
   return (
     <IconContext.Provider
-      value={{ color: "orange", size: "2em", className: "global-class-name" }}
+      value={{
+        style: { verticalAlign: "middle" },
+        color: "orange",
+        size: "3em",
+        margin: "1em",
+        className: "global-class-name",
+      }}
     >
       <div className="App">
         <MyNavBar />
