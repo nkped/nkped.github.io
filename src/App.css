@@ -1,8 +1,11 @@
-.homePageBackground {
+
+.bgDecoration {
   background-image: url(./img/stars.svg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-
 
 .App {
   text-align: center;

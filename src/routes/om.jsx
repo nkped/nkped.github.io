@@ -5,7 +5,7 @@ import { FaRegNewspaper } from "react-icons/fa";
 export default function Om() {
   return (
     <Container fluid className="bg-dark text-light">
-      <Container>
+      <Container fluid className="">
         <Row className="border-bottom border-warning fs-1 fw-semibold mb-4 text-muted">
           Om
         </Row>
@@ -18,7 +18,6 @@ export default function Om() {
             </Col>
           </Row>
 
-          <Row></Row>
           <Row>
             <Col className="mx-auto col-10 col-sm-9 col-md-7 col-lg-6 col-xl-5">
               Uddannet i journalistik og samfundsvidenskab på RUC, og har mange
