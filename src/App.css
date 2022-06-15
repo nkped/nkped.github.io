@@ -1,7 +1,8 @@
 
-.bgDecoration {
-  background-image: url(./img/stars.svg);
-  height: 100vh;
+.bgOmBudda {
+  background-image: url("./img/budha.svg");
+  margin: auto;
+  height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

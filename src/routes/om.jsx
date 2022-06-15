@@ -1,57 +1,81 @@
-import { Container, Row, Col, Stack } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import { Footer } from "../components/footer";
-import { FaRegNewspaper } from "react-icons/fa";
+import { FaRegLaughWink } from "react-icons/fa";
+import PaperBoy from "../img/PaperBoy.svg";
+import budha from "../img/budha.svg";
+import astronaut from "../img/astronaut.svg";
+import treasurechest from "../img/treasurechest.svg";
 
 export default function Om() {
   return (
     <Container fluid className="bg-dark text-light">
-      <Container fluid className="">
+      <Container className="">
         <Row className="border-bottom border-warning fs-1 fw-semibold mb-4 text-muted">
           Om
         </Row>
 
-        <Stack gap={4} className="pt-5 text-start">
-          <Row>
-            <Col className="lead mx-auto col-10 col-sm-9 col-md-7 col-lg-6 col-xl-5">
-              Selv-lærende frontend-udvikler, der ønsker at dyggtigøre sig
-              professionelt under en praktik.
-            </Col>
-          </Row>
+        <Row>
+          <Col xs={{ span: 4, offset: 1 }}>
+            <Image fluid src={PaperBoy} className="" />
+          </Col>
+          <Col xs={{ span: 10, offset: 1 }} className="text-center fs-3">
+            Uddannet i journalistik, RUC
+          </Col>
+          <Col xs={{ span: 10, offset: 1 }}>
+            Gode erfaringer i bagagen som leverandør af web-content, både
+            journalistik, tekst til hjemmeside samt pr-video.
+          </Col>
+        </Row>
 
-          <Row>
-            <Col className="mx-auto col-10 col-sm-9 col-md-7 col-lg-6 col-xl-5">
-              Uddannet i journalistik og samfundsvidenskab på RUC, og har mange
-              gode erfaringer i bagagen som leverandør af web-content, både
-              journalistik, hjemmeside-tekst samt pr-video.
-            </Col>
-          </Row>
-          <Row>
-            <Col className="mx-auto col-10 col-sm-9 col-md-7 col-lg-6 col-xl-5">
-              Da Corona brød løs og hele Danmark tog en dyb kollektiv indånding
-              gjorde jeg det samme. Siden da, har jeg studeret
-              frontend-udvikling på fuld tid, og mener nu, jeg er klar på en
-              praktik.
-            </Col>
-          </Row>
-          <Row>
-            <Col className="mx-auto col-10 col-sm-9 col-md-7 col-lg-6 col-xl-5">
-              Jeg ved, jeg har masser at lære - og glæder mig til det!
-            </Col>
-          </Row>
-          <Row>
-            <Col className="mx-auto col-10 col-sm-9 col-md-7 col-lg-6 col-xl-5">
-              Når det er sagt, har jeg efterhånden overvundet så mange faglige
-              udfordringer, at min selvtillid er robust - jeg forventer at få
-              hovedbrud i min praktik, men også at få styr på det.
-            </Col>
-          </Row>
-          <Row>
-            <Col className="mx-auto col-10 col-sm-9 col-md-7 col-lg-6 col-xl-5">
-              Jeg gør altid mit bedste for at være en sjov, empatisk og
-              samvittighedsfuld kollega.
-            </Col>
-          </Row>
-        </Stack>
+        <Row>
+          <Col xs={{ span: 6, offset: 3 }}>
+            <Image fluid src={budha} className="" />
+          </Col>
+          <Col xs={{ span: 10, offset: 1 }} className="fs-2">
+            Zen-beslutning, to år efter..
+          </Col>
+          <Col xs={{ span: 10, offset: 1 }}>
+            To års studier i web-udvkling er fløjet afsted, efter Corona sendte
+            det kollektive Danmark på tvungen selvrefleksion i 2020.
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ span: 5, offset: 7 }}>
+            <Image src={astronaut} />
+          </Col>
+          <Col xs={{ span: 6, offset: 3 }} className="pe-5 fs-2">
+            Rum-nørd
+          </Col>
+          <Col xs={{ span: 10, offset: 1 }}>
+            jhfh sdlhfls dajhghgg lg jlgj g glasj glksj lg jdgj ldkgj g asgljgd
+            glg als dgkj dg laks g j kjkhf f kjhd sf f fd jdhfkjhf df fg
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ span: 4, offset: 0 }}>
+            <Image fluid src={treasurechest} />
+          </Col>
+          <Col xs={{ span: 10, offset: 1 }} className="fs-2">
+            Skattejagts-forfatter
+            <FaRegLaughWink size={40} />{" "}
+          </Col>
+          <Col></Col>
+        </Row>
+        <Row>
+          <Col></Col>
+          <Col className="gy-3">
+            Jeg gør altid mit bedste for at være en sjov, empatisk og
+            samvittighedsfuld kollega.
+          </Col>
+          <Col></Col>
+        </Row>
+
+        <Row className="gy-3 justify-content-center row-cols-1 row-cols-sm-1 row-cols-md-3">
+          <Col className="col-10 col-sm-10">
+            Selv-lærende frontend-udvikler, der ønsker at dyggtigøre sig
+            professionelt under en praktik.
+          </Col>
+        </Row>
         <Footer />
       </Container>
     </Container>
