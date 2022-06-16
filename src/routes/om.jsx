@@ -2,11 +2,18 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import { Footer } from "../components/footer";
 import { FaRegLaughWink } from "react-icons/fa";
 import PaperBoy from "../img/PaperBoy.svg";
-import budha from "../img/budha.svg";
+import buddha from "../img/buddha.svg";
 import astronaut from "../img/astronaut.svg";
 import treasurechest from "../img/treasurechest.svg";
+import { BlockquoteLeft } from "react-bootstrap-icons";
 
 export default function Om() {
+  const buddhaBg = {
+    backgroundImage: URL("../img/buddha.svg"),
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "contain",
+  };
   return (
     <Container fluid className="bg-dark text-light">
       <Container className="">
@@ -28,9 +35,6 @@ export default function Om() {
         </Row>
 
         <Row>
-          <Col xs={{ span: 6, offset: 3 }}>
-            <Image fluid src={budha} className="" />
-          </Col>
           <Col xs={{ span: 10, offset: 1 }} className="fs-2">
             Zen-beslutning, to år efter..
           </Col>
@@ -40,7 +44,7 @@ export default function Om() {
           </Col>
         </Row>
         <Row>
-          <Col xs={{ span: 5, offset: 7 }}>
+          <Col xs={{ span: 4, offset: 7 }}>
             <Image src={astronaut} />
           </Col>
           <Col xs={{ span: 6, offset: 3 }} className="pe-5 fs-2">
@@ -52,7 +56,7 @@ export default function Om() {
           </Col>
         </Row>
         <Row>
-          <Col xs={{ span: 4, offset: 0 }}>
+          <Col xs={{ span: 4, offset: 4 }}>
             <Image fluid src={treasurechest} />
           </Col>
           <Col xs={{ span: 10, offset: 1 }} className="fs-2">
@@ -81,3 +85,8 @@ export default function Om() {
     </Container>
   );
 }
+/*
+          <Col xs={{ span: 5, offset: 3 }}>
+            <Image fluid src={buddha} className="" />
+          </Col>
+          */
