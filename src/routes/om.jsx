@@ -1,87 +1,73 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { Footer } from "../components/footer";
-import { FaRegLaughWink } from "react-icons/fa";
-import PaperBoy from "../img/PaperBoy.svg";
-import buddha from "../img/buddha.svg";
-import astronaut from "../img/astronaut.svg";
-import treasurechest from "../img/treasurechest.svg";
-import { BlockquoteLeft } from "react-bootstrap-icons";
+import { FaRegLaughWink, FaHandsHelping, FaHandSpock } from "react-icons/fa";
 
 export default function Om() {
-  const buddhaBg = {
-    backgroundImage: URL("../img/buddha.svg"),
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "contain",
-  };
   return (
     <Container fluid className="bg-dark text-light">
-      <Container className="">
-        <Row className="border-bottom border-warning fs-1 fw-semibold mb-4 text-muted">
-          Om
-        </Row>
+      <Row className="border-bottom border-warning fs-1 fw-semibold mb-4 text-muted">
+        Om
+      </Row>
 
-        <Row>
-          <Col xs={{ span: 4, offset: 1 }}>
-            <Image fluid src={PaperBoy} className="" />
-          </Col>
-          <Col xs={{ span: 10, offset: 1 }} className="text-center fs-3">
-            Uddannet i journalistik, RUC
-          </Col>
-          <Col xs={{ span: 10, offset: 1 }}>
-            Gode erfaringer i bagagen som leverandør af web-content, både
-            journalistik, tekst til hjemmeside samt pr-video.
-          </Col>
-        </Row>
+      <Row className="my-5 justify-content-center">
+        <Col xs={{ span: 10, offset: 1 }} className=""></Col>
+        <Col className="lead fst-italic text-align-center col-10 col-sm-10">
+          "Selv-lærende frontend-udvikler, der ønsker at dyggtigøre sig
+          professionelt under en praktik."
+        </Col>
+        <Col xs={{ span: 10, offset: 0 }}>
+          <FaHandsHelping />
+        </Col>
+      </Row>
 
-        <Row>
-          <Col xs={{ span: 10, offset: 1 }} className="fs-2">
-            Zen-beslutning, to år efter..
-          </Col>
-          <Col xs={{ span: 10, offset: 1 }}>
-            To års studier i web-udvkling er fløjet afsted, efter Corona sendte
-            det kollektive Danmark på tvungen selvrefleksion i 2020.
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={{ span: 4, offset: 7 }}>
-            <Image src={astronaut} />
-          </Col>
-          <Col xs={{ span: 6, offset: 3 }} className="pe-5 fs-2">
-            Rum-nørd
-          </Col>
-          <Col xs={{ span: 10, offset: 1 }}>
-            jhfh sdlhfls dajhghgg lg jlgj g glasj glksj lg jdgj ldkgj g asgljgd
-            glg als dgkj dg laks g j kjkhf f kjhd sf f fd jdhfkjhf df fg
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={{ span: 4, offset: 4 }}>
-            <Image fluid src={treasurechest} />
-          </Col>
-          <Col xs={{ span: 10, offset: 1 }} className="fs-2">
-            Skattejagts-forfatter
-            <FaRegLaughWink size={40} />{" "}
-          </Col>
-          <Col></Col>
-        </Row>
-        <Row>
-          <Col></Col>
-          <Col className="gy-3">
-            Jeg gør altid mit bedste for at være en sjov, empatisk og
-            samvittighedsfuld kollega.
-          </Col>
-          <Col></Col>
-        </Row>
+      <Row className="bgBuddha align-items-center">
+        <Col xs={{ span: 10, offset: 1 }} className="fs-2 mt-5 pt-5">
+          Zen-beslutning, to år efter..
+        </Col>
+        <Col xs={{ span: 10, offset: 1 }} className="mb-5 pb-5">
+          To års studier i web-udvkling er fløjet afsted, efter Corona sendte
+          det kollektive Danmark på tvungen selvrefleksion i 2020.
+        </Col>
+      </Row>
 
-        <Row className="gy-3 justify-content-center row-cols-1 row-cols-sm-1 row-cols-md-3">
-          <Col className="col-10 col-sm-10">
-            Selv-lærende frontend-udvikler, der ønsker at dyggtigøre sig
-            professionelt under en praktik.
-          </Col>
-        </Row>
-        <Footer />
-      </Container>
+      <Row className="bgPaperBoy align-items-center">
+        <Col xs={{ span: 10, offset: 1 }} className="fs-2  mt-5 pt-5">
+          Uddannet i journalistik, RUC
+        </Col>
+        <Col xs={{ span: 10, offset: 1 }} className="mb-5 pb-5">
+          Gode erfaringer i bagagen som leverandør af web-content, både
+          journalistik, tekst til hjemmeside samt pr-video.
+        </Col>
+      </Row>
+
+      <Row className="bgAstronaut align-items-center">
+        <Col xs={{ span: 10, offset: 1 }} className="fs-2 mt-5 pt-5">
+          Fysik og sci-fy enthusiast
+        </Col>
+        <Col xs={{ span: 10, offset: 1 }}>
+          <FaHandSpock />
+        </Col>
+        <Col xs={{ span: 10, offset: 1 }} className="mb-5 pb-5"></Col>
+      </Row>
+      <Row className="bgTreasure align-items-center">
+        <Col xs={{ span: 10, offset: 1 }} className="fs-2  mt-5 pt-5">
+          Skattejagts-forfatter
+        </Col>
+        <Col xs={{ span: 10, offset: 1 }} className="mb-5 pb-5">
+          Min datter - en gæv 12-årig - må udholde sin fars trang til
+          arts&crafts og let skuespil til sine fødselsdage. Det må vennernes
+          børn også, og endda et par voksne i familien også.
+          <FaRegLaughWink size={40} />{" "}
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={{ span: 10, offset: 1 }} className="lead fst-italic">
+          "Jeg gør altid mit bedste for at være en sjov, empatisk og
+          samvittighedsfuld kollega."
+        </Col>
+      </Row>
+
+      <Footer />
     </Container>
   );
 }
@@ -89,4 +75,16 @@ export default function Om() {
           <Col xs={{ span: 5, offset: 3 }}>
             <Image fluid src={buddha} className="" />
           </Col>
+          
+          <Col xs={{ span: 4, offset: 1 }}>
+          <Image fluid src={PaperBoy} className="" />
+          </Col>
+          
+          <Col xs={{ span: 4, offset: 7 }}>
+          <Image src={astronaut} />
+          </Col>
+          <Col xs={{ span: 4, offset: 4 }}>
+          <Image fluid src={treasurechest} />
+          </Col>
+          
           */

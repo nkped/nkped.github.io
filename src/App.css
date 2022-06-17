@@ -1,12 +1,41 @@
-
-.bgOmBudda {
-  background-image: url("./img/budha.svg");
-  margin: auto;
-  height: 50vh;
-  background-position: center;
+.bgBuddha {
+  background-image: url("./img/buddha.svg");
+  min-height: 50vh;
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
+
+.bgPaperBoy {
+  background-image: url("./img/paperBoy.svg");
+  min-height: 30vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+.bgAstronaut {
+  background-image: url("./img/astronaut.svg");
+  min-height: 60vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bgTreasure {
+  background-image: url("./img/treasurechest.svg");
+  min-height: 30vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+
+
 
 .App {
   text-align: center;
