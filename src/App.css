@@ -1,6 +1,6 @@
 .bgBuddha {
   background-image: url("./img/buddha.svg");
-  min-height: 50vh;
+  min-height: 40vh;
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -8,7 +8,7 @@
 
 .bgPaperBoy {
   background-image: url("./img/paperBoy.svg");
-  min-height: 30vh;
+  min-height: 35vh;
   background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
@@ -18,7 +18,7 @@
 
 .bgAstronaut {
   background-image: url("./img/astronaut.svg");
-  min-height: 60vh;
+  min-height: 20vh;
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -26,8 +26,8 @@
 
 .bgTreasure {
   background-image: url("./img/treasurechest.svg");
-  min-height: 30vh;
-  background-position: left;
+  min-height: 35vh;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
