@@ -12,10 +12,14 @@ export default function Om() {
       </Row>
 
       <Row className="my-5 justify-content-center">
-        <Col xs={{ span: 10, offset: 1 }}></Col>
-        <Col className="lead fst-italic text-align-center col-10 col-sm-10">
-          "Selv-lærende frontend-udvikler, der ønsker at dyggtigøre sig
-          professionelt under en praktik."
+        <Col
+          xs={{ span: 10, offset: 0 }}
+          className="lead mb-3 fst-italic text-align-center"
+        >
+          <p>
+            "Selv-lærende frontend-udvikler, der ønsker at dyggtigøre sig
+            professionelt under en praktik."
+          </p>
         </Col>
         <Col xs={{ span: 10, offset: 0 }}>
           <FaHandsHelping />
@@ -27,8 +31,10 @@ export default function Om() {
           Zen-beslutning, to år efter..
         </Col>
         <Col xs={{ span: 10, offset: 1 }} className="mb-0 pb-3">
-          To års studier i web-udvkling er fløjet afsted, efter Corona sendte
-          det kollektive Danmark på tvungen selvrefleksion i 2020.
+          <p>
+            To års studier i web-udvkling er fløjet afsted, efter Corona sendte
+            det kollektive Danmark på tvungen selvrefleksion i 2020.
+          </p>
         </Col>
       </Row>
 
@@ -37,8 +43,11 @@ export default function Om() {
           Uddannet i journalistik, RUC
         </Col>
         <Col xs={{ span: 10, offset: 1 }} className="mb-0 pb-3">
-          Gode erfaringer i bagagen som leverandør af web-content, både
-          journalistik, tekst til hjemmeside samt pr-video.
+          <p>
+            {" "}
+            Gode erfaringer i bagagen som leverandør af web-content, både
+            journalistik, tekst til hjemmeside samt pr-video.
+          </p>
         </Col>
       </Row>
 
@@ -47,7 +56,7 @@ export default function Om() {
           The Truth Is Out There!
         </Col>
         <Col xs={{ span: 10, offset: 1 }}>
-          <RiAliensLine style={{ color: "green" }} size={50} />
+          <RiAliensLine style={{ color: "green" }} size={80} />
         </Col>
         <Col xs={{ span: 10, offset: 1 }} className="mb-0 pb-0"></Col>
       </Row>
@@ -56,9 +65,11 @@ export default function Om() {
           Skattejagts-forfatter
         </Col>
         <Col xs={{ span: 10, offset: 1 }} className="mb-0 pb-3">
-          Min datter - en gæv 12-årig - må udholde sin fars trang til
-          arts&crafts og let teater til sine fødselsdage. Det må vennernes børn
-          , og endda et par voksne i familien også.
+          <p>
+            Min datter - en gæv 12-årig - må udholde sin fars trang til
+            arts&crafts og let teater til sine fødselsdage. Det må vennernes
+            børn , og endda et par voksne i familien også.
+          </p>
         </Col>
         <Col xs={{ span: 10, offset: 1 }}>
           <BsEmojiSmileUpsideDown size={40} />

@@ -13,7 +13,7 @@ export default function Blog() {
         onClick={() => setOpen(!open)}
         aria-controls="example-collapse-text"
         aria-expanded={open}
-        className="mb-4"
+        className="montFont mb-4"
       >
         Se alle blogindlæg!
       </Button>

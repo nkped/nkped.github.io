@@ -1,5 +1,5 @@
 import * as ReactDOMClient from "react-dom/client";
-
+//Remember at deploy - switch to HashRouter!
 import {
   BrowserRouter,
   HashRouter as Router,

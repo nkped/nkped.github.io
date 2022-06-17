@@ -2,13 +2,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { IconContext } from "react-icons";
-//Remember at deploy - switch to HashRouter!
-import {
-  BrowserRouter,
-  HashRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
 
 //Styles
 import "./App.css";

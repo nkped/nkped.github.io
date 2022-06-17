@@ -30,15 +30,21 @@ export default function Skills() {
           className=" mx-auto py-5 mt-5 text-center col-9 col-sm-8 col-md-7 col-lg-5"
         >
           <Col className="fs-3 fw-semibold mb-2">
-            Min nuværende 'tech-stack' - rub og stub er med. <FaRegGrinWink />
+            <p>
+              Min nuværende 'tech-stack' - rub og stub er med. <FaRegGrinWink />
+            </p>
           </Col>
           <Col>
-            Jeg er selvfølgelig ikke ekspert, men habil i basics, og super
-            nysgerrig på at udvikle mig.
+            <p>
+              Jeg er selvfølgelig ikke ekspert, men habil i basics, og super
+              nysgerrig på at udvikle mig.
+            </p>
           </Col>
           <Col>
-            Mine næste mål er anført aller nederst på siden, og tæller derfor
-            ikke som skills for nuværende.
+            <p>
+              Mine næste mål er anført aller nederst på siden, og tæller derfor
+              ikke som skills for nuværende.
+            </p>
           </Col>
         </Stack>
 

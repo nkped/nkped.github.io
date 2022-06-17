@@ -24,43 +24,55 @@ export default function Kontakt() {
         >
           <Row>
             <Col>
-              <span className="lead text-warning">Praktik er gratis </span>-
-              virksomhed skal blot sørge for frokost og kontorplads.
+              <p>
+                <span className="lead text-warning">Praktik er gratis </span>-
+                virksomhed skal blot sørge for frokost og kontorplads.
+              </p>
             </Col>
           </Row>
           <Row>
             <Col>
-              <span className="lead text-warning">Formålet </span>med praktik er
-              primært joberfaring - ikke nødvendigvis job i samme virksomhed
-              efterfølgende.
+              <p>
+                <span className="lead text-warning">Formålet </span>med praktik
+                er primært joberfaring - ikke nødvendigvis job i samme
+                virksomhed efterfølgende.
+              </p>
             </Col>
           </Row>
           <Row>
             <Col>
-              <span className="lead text-warning">Varighed </span>for praktik er
-              i udgangspunktet tre måneder.
+              <p>
+                <span className="lead text-warning">Varighed </span>for praktik
+                er i udgangspunktet tre måneder.
+              </p>
             </Col>
           </Row>
           <Row>
             <Col>
-              <span className="lead text-warning">Min rolle</span> som
-              praktikant skal selvfølgelig primært udvikle mig som programmør.
-              Jeg er dog åben overfor at bidrage på andre områder for, at det
-              giver mening for virksomheden at have et føl gående.
+              <p>
+                <span className="lead text-warning">Min rolle</span> som
+                praktikant skal selvfølgelig primært udvikle mig som programmør.
+                Jeg er dog åben overfor at bidrage på andre områder for, at det
+                giver mening for virksomheden at have et føl gående.
+              </p>
             </Col>
           </Row>
           <Row>
             <Col>
-              <span className="lead text-warning"> Jeg har erfaring</span> som
-              primær website-skribent for founthouse.dk, mødebooker for Nerd
-              Productions samt manusforfatter på engelsk-sproglig pr-video for
-              Citizen Dane (se referencer nederst).
+              <p>
+                <span className="lead text-warning"> Jeg har erfaring</span> som
+                primær website-skribent for founthouse.dk, mødebooker for Nerd
+                Productions samt manusforfatter på engelsk-sproglig pr-video for
+                Citizen Dane (se referencer nederst).
+              </p>
             </Col>
           </Row>
           <Row>
             <Col>
-              <span className="lead text-warning">Skriv eller ring</span> på
-              nedenstående info.
+              <p>
+                <span className="lead text-warning">Skriv eller ring</span> på
+                nedenstående info.
+              </p>
             </Col>
           </Row>
         </Stack>
