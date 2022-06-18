@@ -11,22 +11,26 @@ export default function Home() {
     <Container fluid className="bg-dark text-light">
       <Container className="px-5 pt-3">
         <Row>
-          <Col className="fs-2 fw-semibold">
-            Frontend-udvikler kl 2138 søger{" "}
-            <span className="fs-1 text-warning">praktikplads</span>
+          <Col>
+            <h1>
+              Frontend-udvikler kl 2138 søger{" "}
+              <span className="fs-1 text-warning">praktikplads</span>
+            </h1>
           </Col>
         </Row>
 
         <Container fluid className="my-4">
           <Image fluid src={YellowHomePageImage} />
         </Container>
-        <Button href="/#/kontakt" variant="primary" className="my-4">
+        <Button href="/#/kontakt" variant="primary" className="montFont my-4">
           Kontakt og info
           <ArrowRight className="ms-1" />
         </Button>
         <Container className="text-center text-muted">
           <Row>
-            <Col>Venlig hilsen</Col>
+            <Col>
+              <p>Venlig hilsen</p>
+            </Col>
           </Row>
           <Row>
             <Col>Nils-Kristian Pedersen</Col>

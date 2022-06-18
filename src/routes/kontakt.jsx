@@ -5,7 +5,7 @@ import { FaHandshake, FaUserTie } from "react-icons/fa";
 
 export default function Kontakt() {
   return (
-    <Container fluid className="bg-dark text-light">
+    <Container fluid className="montFont bg-dark text-light">
       <Container>
         <Row className="fs-1 fw-semibold mb-2 pb-1 text-muted  border-bottom border-warning">
           Info

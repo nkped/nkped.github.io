@@ -19,7 +19,6 @@ function App() {
         style: { verticalAlign: "middle" },
         color: "orange",
         size: "3em",
-        margin: "1em",
         className: "global-class-name",
       }}
     >

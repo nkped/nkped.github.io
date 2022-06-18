@@ -4,8 +4,8 @@ import { Footer } from "../components/footer";
 
 export default function BlogLandingPage() {
   return (
-    <Container fluid className="">
-      <Container className="fs-1 fw-semibold mb-2 text-muted">
+    <Container fluid className="montFont">
+      <Container className="fs-1 fw-semibold mb-2 text-muted text-start">
         <Row>Blog</Row>
       </Container>
       <Container className="text-center px-4 py-3 border-top border-warning">
