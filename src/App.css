@@ -77,13 +77,16 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Hind', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
-.hFont {
-  font-family: 'Hind', sans-serif;
+.rFont {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
 }
 
-.mFont {
-  font-family: 'Montserrat', sans-serif;
-}
+.nFont { font-family: 'Nunito', sans-serif;
+  font-size: 1.2em; }
+  
+  .hFont { font-family: 'Hind', sans-serif;
+    font-size: 1.2em; }
