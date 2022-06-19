@@ -22,7 +22,7 @@ function App() {
         className: "global-class-name",
       }}
     >
-      <div className="App">
+      <div className="App bg-dark text-light">
         <MyNavBar />
         <Outlet />
       </div>

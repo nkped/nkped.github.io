@@ -76,17 +76,20 @@
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-font-family: 'Roboto', sans-serif;
+h1 {
+  font-family: 'Noto Sans', sans-serif;
 }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+ }
 
 .rFont {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2em;
-}
+  font-size: 1.2em;}
 
 .nFont { font-family: 'Nunito', sans-serif;
-  font-size: 1.2em; }
+  font-size: 1.1em; }
   
-  .hFont { font-family: 'Hind', sans-serif;
-    font-size: 1.2em; }
+.hFont { font-family: 'Hind', sans-serif; }

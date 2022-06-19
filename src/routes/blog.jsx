@@ -7,13 +7,12 @@ import { Footer } from "../components/footer";
 export default function Blog() {
   const [open, setOpen] = useState(false);
   return (
-    <Container fluid className="vh-100 bg-dark text-light">
+    <Container fluid className="vh-100">
       <Outlet />
       <Button
         onClick={() => setOpen(!open)}
         aria-controls="example-collapse-text"
         aria-expanded={open}
-        className="montFont mb-4"
       >
         Se alle blogindlæg!
       </Button>
