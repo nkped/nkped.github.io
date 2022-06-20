@@ -32,6 +32,39 @@
   background-size: contain;
 }
 
+.skewed {
+  transform: skew(0deg, -7deg);;
+}
+
+
+.higher
+
+
+.Noto700 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+
+.Noto600 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -76,18 +109,5 @@
   }
 }
 
-
-
-.Noto700 {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 700;
-}
-
-
-
-.Noto600 {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 600;
-}
 
 
