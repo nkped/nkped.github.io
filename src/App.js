@@ -23,8 +23,10 @@ function App() {
       }}
     >
       <div className="App bg-dark text-light">
-        <MyNavBar />
-        <Outlet />
+        <header className="App-header">
+          <MyNavBar />
+          <Outlet />
+        </header>
       </div>
     </IconContext.Provider>
   );

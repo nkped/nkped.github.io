@@ -15,14 +15,14 @@ export default function BlogLandingPage() {
       </Row>
       <Row className="text-center px-4 py-3">
         <Card className="my-4 bg-dark">
-          <Card.Body className="">
-            <Pen color="orange" size={40} className=" mb-5" />
+          <Card.Body className="p-4">
             <Card.Title>
-              <h1>nkp blog</h1>
+              <h1 style={{"font-weight": 900}} >nkp blog</h1>
             </Card.Title>
+            <Pen color="orange" size={40} className=" mt-3 mb-5" />
             <Card.Text className="lead">
-              Velkommen, her skriver jeg manualer om webudvikling. Jeg arbejder
-              med <span className="text-warning">reactJS</span> og{" "}
+              Her skriver jeg manualer om webudvikling. Jeg arbejder med{" "}
+              <span className="text-warning">reactJS</span> og{" "}
               <span className="text-warning ">react-bootstrap</span>.
             </Card.Text>
             <Card.Text>

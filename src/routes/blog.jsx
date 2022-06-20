@@ -7,7 +7,7 @@ import { Footer } from "../components/footer";
 export default function Blog() {
   const [open, setOpen] = useState(false);
   return (
-    <Container fluid className="vh-100">
+    <Container>
       <Outlet />
       <Button
         onClick={() => setOpen(!open)}
