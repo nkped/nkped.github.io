@@ -2,6 +2,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { IconContext } from "react-icons";
+import { Container } from "react-bootstrap";
 
 //Styles
 import "./App.css";
@@ -22,7 +23,7 @@ function App() {
         className: "global-class-name",
       }}
     >
-      <div className="App bg-dark text-light">
+      <div className="App bg-dark">
         <header className="App-header">
           <MyNavBar />
           <Outlet />

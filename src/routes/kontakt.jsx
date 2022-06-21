@@ -6,8 +6,8 @@ import { FaHandshake, FaUserTie } from "react-icons/fa";
 export default function Kontakt() {
   return (
     <Container fluid>
-      <Container>
-        <Row className="h1 display-2 Noto700 pb-1 mb-2 text-muted  border-bottom border-warning">
+      <Container className="bg-dark px-3">
+        <Row className="display-2 Noto700 pb-1 mb-2 text-muted  border-bottom border-warning">
           Info
         </Row>
 

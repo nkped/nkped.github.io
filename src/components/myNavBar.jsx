@@ -6,13 +6,13 @@ import BlogDropdown from "./blogDropdown";
 
 export function MyNavBar() {
   return (
-    <Container>
+    <Container fluid className="px-3">
       <Navbar
         collapseOnSelect
         expand="lg"
         bg="dark"
         variant="dark"
-        className="py-3 mb-5"
+        className="pt-3 pb-5 px-1"
       >
         <Navbar.Brand href="/#/">
           <HouseDoor size={40} color="blue" />

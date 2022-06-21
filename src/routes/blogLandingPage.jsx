@@ -5,22 +5,17 @@ import { Footer } from "../components/footer";
 export default function BlogLandingPage() {
   return (
     <Container fluid>
-      <Row
-        className="fw-semibold fs-1 mb-2 border-bottom
-        border-warning text-muted text-start"
-      >
-        <Col>
-          <h1>Blog</h1>
-        </Col>
+      <Row className="h1 display-2 Noto700 pb-1 mb-2 text-muted  border-bottom border-warning">
+        Blog
       </Row>
-      <Row className="text-center px-4 py-3">
+      <Row className="text-center py-3">
         <Card className="my-4 bg-dark">
           <Card.Body className="p-4">
             <Card.Title>
-              <h1 style={{"font-weight": 900}} >nkp blog</h1>
+              <h1 style={{ "font-weight": 900 }}>nkp blog</h1>
             </Card.Title>
             <Pen color="orange" size={40} className=" mt-3 mb-5" />
-            <Card.Text className="lead">
+            <Card.Text className="">
               Her skriver jeg manualer om webudvikling. Jeg arbejder med{" "}
               <span className="text-warning">reactJS</span> og{" "}
               <span className="text-warning ">react-bootstrap</span>.

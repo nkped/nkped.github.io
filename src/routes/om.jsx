@@ -6,9 +6,9 @@ import { BsEmojiSmileUpsideDown } from "react-icons/bs";
 
 export default function Om() {
   return (
-    <Container fluid>
-      <Container>
-        <Row className="h1 display-2 Noto700 pb-1 mb-2 text-muted  border-bottom border-warning">
+    <Container fluid className="px-3">
+      <Container className="bg-dark">
+        <Row className="display-2 Noto700 pb-1 px-1 mb-2 text-muted  border-bottom border-warning">
           Om
         </Row>
 
@@ -68,7 +68,7 @@ export default function Om() {
           <Col xs={{ span: 10, offset: 1 }} className="mb-0 pb-3">
             <p>
               Min datter - en gæv 12-årig - må udholde sin fars trang til
-              arts&crafts og let teater til sine fødselsdage. Det må vennernes
+              arts&crafts og let teater på sine fødselsdage. Det må vennernes
               børn , og endda et par voksne i familien.
             </p>
           </Col>
