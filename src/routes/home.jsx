@@ -8,19 +8,21 @@ import { ArrowRight } from "react-bootstrap-icons";
 
 export default function Home() {
   return (
-    <Container className="bg-dark text-light">
-      <Row className="skewed">
-        <h1 className="Noto700 text-warning display-2">
-          Frontend-udvikler søger praktikplads
-        </h1>
-      </Row>
-      <Row>
+    <Container className="bg-dark text-light higher">
+      <h1 className="Noto700 text-warning display-2 skewed my-5">
+        Frontend-udvikler søger praktikplads
+      </h1>
+      <Row className="mb-3">
         <Col xs={{ span: 6, offset: 5 }}>..vh Nils-Kristian</Col>{" "}
       </Row>
-      <Button href="/#/kontakt" variant="primary" className="Noto600 my-4">
-        Kontakt og info
-        <ArrowRight className="ms-1" />
-      </Button>
+      <Row>
+        <Col>
+          <Button href="/#/kontakt" variant="primary" className="Noto600 my-5">
+            Kontakt og info
+            <ArrowRight className="ms-1" />
+          </Button>
+        </Col>
+      </Row>
       <Footer />
     </Container>
   );

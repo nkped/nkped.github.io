@@ -37,7 +37,9 @@
 }
 
 
-.higher
+.higher {
+  min-height: 80vh;
+}
 
 
 .Noto700 {

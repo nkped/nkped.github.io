@@ -7,11 +7,11 @@ export default function Kontakt() {
   return (
     <Container fluid>
       <Container>
-        <Row className="fs-1 fw-semibold mb-2 pb-1 text-muted  border-bottom border-warning">
+        <Row className="h1 display-2 Noto700 pb-1 mb-2 text-muted  border-bottom border-warning">
           Info
         </Row>
 
-        <Stack className="py-5 mt-3 gap-2 fs-1 fw-bold text-center mb-2">
+        <Stack className="Noto700 fs-1 text-center gap-2  py-5 mt-3  mb-2">
           <Col>Vilkår for praktik </Col>
           <Col>
             <FaHandshake />
@@ -25,16 +25,16 @@ export default function Kontakt() {
           <Row>
             <Col>
               <p>
-                <span className="lead text-warning">Praktik er gratis </span>-
-                virksomhed skal blot sørge for frokost og kontorplads.
+                <span className="Noto600 text-warning">Praktik er gratis </span>
+                - virksomhed skal blot sørge for frokost og kontorplads.
               </p>
             </Col>
           </Row>
           <Row>
             <Col>
               <p>
-                <span className="lead text-warning">Formålet </span>med praktik
-                er primært joberfaring - ikke nødvendigvis job i samme
+                <span className="Noto600 text-warning">Formålet </span>med
+                praktik er primært joberfaring - ikke nødvendigvis job i samme
                 virksomhed efterfølgende.
               </p>
             </Col>
@@ -42,15 +42,15 @@ export default function Kontakt() {
           <Row>
             <Col>
               <p>
-                <span className="lead text-warning">Varighed </span>for praktik
-                er i udgangspunktet tre måneder.
+                <span className="Noto600 text-warning">Varighed </span>for
+                praktik er i udgangspunktet tre måneder.
               </p>
             </Col>
           </Row>
           <Row>
             <Col>
               <p>
-                <span className="lead text-warning">Min rolle</span> som
+                <span className="Noto600 text-warning">Min rolle</span> som
                 praktikant skal selvfølgelig primært udvikle mig som programmør.
                 Jeg er dog åben overfor at bidrage på andre områder for, at det
                 giver mening for virksomheden at have et føl gående.
@@ -60,18 +60,18 @@ export default function Kontakt() {
           <Row>
             <Col>
               <p>
-                <span className="lead text-warning"> Jeg har erfaring</span> som
-                primær website-skribent for founthouse.dk, mødebooker for Nerd
-                Productions samt manusforfatter på engelsk-sproglig pr-video for
-                Citizen Dane (se referencer nederst).
+                <span className="Noto600 text-warning"> Jeg har erfaring</span>{" "}
+                som primær website-skribent for founthouse.dk, mødebooker for
+                Nerd Productions samt manusforfatter på engelsk-sproglig
+                pr-video for Citizen Dane (se referencer nederst).
               </p>
             </Col>
           </Row>
           <Row>
             <Col>
               <p>
-                <span className="lead text-warning">Skriv eller ring</span> på
-                nedenstående info.
+                <span className="Noto600 text-warning">Skriv eller ring</span>{" "}
+                på nedenstående info.
               </p>
             </Col>
           </Row>
