@@ -54,7 +54,13 @@
 
 
 
+.bgColor {
+  background-color: hsla(299, 49%, 62%, 1);
+}
 
+.color {
+  color: hsla(299, 49%, 62%, 1);
+}
 
 
 

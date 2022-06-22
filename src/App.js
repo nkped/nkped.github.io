@@ -2,7 +2,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { IconContext } from "react-icons";
-import { Container } from "react-bootstrap";
 
 //Styles
 import "./App.css";

@@ -7,32 +7,34 @@ export default function BlogPost() {
   let params = useParams();
   let blogPost = getBlogPost(parseInt(params.blogPostId));
   return (
-    <Container>
-      <Row className="fs-1 fw-semibold text-muted border-bottom border-warning">
-        BlogPost
-      </Row>
-      <Container className="text-start  px-4 py-5 ">
-        <Row className="fs-3 fw-bold text-start mb-2">
-          <Col>{`${blogPost.titel}`}</Col>
+    <Container fluid className="px-3">
+      <Container className="bg-dark">
+        <Row className="display-2 Noto700 pb-1 px-1 mb-2 text-muted  border-bottom border-warning">
+          Blogpost
         </Row>
-        <Row>
-          <Col className="mb-3 py-1">{`#${blogPost.subject}`}</Col>
-        </Row>
+        <Container className="text-start  px-4 py-5 ">
+          <Row className="fs-3 fw-bold text-start mb-2">
+            <Col>{`${blogPost.titel}`}</Col>
+          </Row>
+          <Row>
+            <Col className="mb-3 py-1">{`#${blogPost.subject}`}</Col>
+          </Row>
 
-        <Row className="border-bottom border-warning pb-3">
-          <Col>
-            <p className="lead">{blogPost.intro}</p>
-            <p>{blogPost.text}</p>
-          </Col>
-        </Row>
-        <Row>
-          <Col className="text-center mt-5">
-            <Button variant="primary" href="/#/blog">
-              <ArrowReturnLeft className="me-1" />
-              Blog
-            </Button>
-          </Col>
-        </Row>
+          <Row className="border-bottom border-warning pb-3">
+            <Col>
+              <p className="lead">{blogPost.intro}</p>
+              <p>{blogPost.text}</p>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="text-center mt-5">
+              <Button variant="primary" href="/#/blog">
+                <ArrowReturnLeft className="me-1" />
+                Blog
+              </Button>
+            </Col>
+          </Row>
+        </Container>
       </Container>
     </Container>
   );

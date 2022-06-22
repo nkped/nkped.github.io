@@ -15,7 +15,7 @@ export function MyNavBar() {
         className="pt-3 pb-5 px-1"
       >
         <Navbar.Brand href="/#/">
-          <HouseDoor size={40} color="blue" />
+          <HouseDoor size={50} className="color" />
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
