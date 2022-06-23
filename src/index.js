@@ -1,4 +1,8 @@
 import * as ReactDOMClient from "react-dom/client";
+
+//Bootstrap
+import custom from "./sass/custom.scss";
+
 //Remember at deploy - switch to HashRouter!
 import {
   BrowserRouter,

@@ -6,9 +6,6 @@ import { IconContext } from "react-icons";
 //Styles
 import "./App.css";
 
-//Bootstrap
-import "bootstrap/dist/css/bootstrap.min.css";
-
 //Components
 import { MyNavBar } from "./components/myNavBar";
 
