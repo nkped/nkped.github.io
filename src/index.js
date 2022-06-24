@@ -1,7 +1,7 @@
 import * as ReactDOMClient from "react-dom/client";
 
 //Bootstrap
-import custom from "./sass/custom.scss";
+import "./custom.scss";
 
 //Remember at deploy - switch to HashRouter!
 import {
@@ -13,8 +13,6 @@ import {
 
 //React
 import { StrictMode } from "react";
-//Styles
-import "./index.css";
 //Routes
 import App from "./App";
 import Om from "./routes/om";

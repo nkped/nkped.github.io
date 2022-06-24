@@ -18,12 +18,8 @@ export default function Home() {
         </Row>
         <Row>
           <Col>
-            <Button
-              href="/#/kontakt"
-              variant="bgColor"
-              className="Noto600 my-5"
-            >
-              Kontakt og info
+            <Button href="/#/kontakt" variant="danger" className="Noto600 my-5">
+              Info
               <ArrowRight className="ms-1" />
             </Button>
           </Col>

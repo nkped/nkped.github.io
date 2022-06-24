@@ -2,12 +2,9 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { IconContext } from "react-icons";
-
-//Styles
-import "./App.css";
-
 //Components
 import { MyNavBar } from "./components/myNavBar";
+import "./App.css";
 
 function App() {
   return (

@@ -1,0 +1,20 @@
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+$primary: #0074d9;
+$danger: #cc6fce;
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+
+/* 
+Farve-prøver
+#cc6fce;
+
+
+
+Lav delvis Bootstrap-import sådan:
+https://getbootstrap.com/docs/5.0/customize/sass/#file-structure */
+
+
