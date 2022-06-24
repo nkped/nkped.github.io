@@ -10,11 +10,17 @@ export default function Home() {
   return (
     <Container>
       <Container className="bg-dark higher pt-5">
-        <h1 className="Noto700 text-warning display-2 skewed">
-          Frontend-udvikler søger praktikplads
-        </h1>
+        <Row>
+          <Col xs={{ span: 10, offset: 1 }}>
+            <h1 className="Noto700 text-warning display-2 skewed">
+              Frontend-dev søger praktikplads
+            </h1>
+          </Col>
+        </Row>
         <Row className="mb-5 skewed">
-          <Col xs={{ span: 6, offset: 5 }}>..vh Nils-Kristian</Col>{" "}
+          <Col xs={{ span: 6, offset: 5 }} className="text-muted">
+            ..vh Nils-Kristian
+          </Col>{" "}
         </Row>
         <Row>
           <Col>
