@@ -7,8 +7,8 @@ export default function BlogPost() {
   let params = useParams();
   let blogPost = getBlogPost(parseInt(params.blogPostId));
   return (
-    <Container fluid className="px-3">
-      <Container className="bg-dark">
+    <Container>
+      <Container className="bg-dark px-0">
         <Row className="display-2 Noto700 pb-1 px-1 mb-2 text-muted  border-bottom border-warning">
           Blogpost
         </Row>
@@ -20,7 +20,7 @@ export default function BlogPost() {
             <Col className="mb-3 py-1">{`#${blogPost.subject}`}</Col>
           </Row>
 
-          <Row className="border-bottom border-warning pb-3">
+          <Row className="pb-3">
             <Col>
               <p className="lead">{blogPost.intro}</p>
               <p>{blogPost.text}</p>

@@ -20,7 +20,7 @@ import { Footer } from "../components/footer";
 
 export default function Skills() {
   return (
-    <Container fluid className="px-3">
+    <Container>
       <Container className="bg-dark">
         <Row className="display-2 Noto700 pb-1 px-1 mb-2 text-muted  border-bottom border-warning">
           Skills

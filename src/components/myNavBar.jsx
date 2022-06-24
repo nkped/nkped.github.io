@@ -6,7 +6,7 @@ import BlogDropdown from "./blogDropdown";
 
 export function MyNavBar() {
   return (
-    <Container fluid className="px-3">
+    <Container>
       <Navbar
         collapseOnSelect
         expand="lg"

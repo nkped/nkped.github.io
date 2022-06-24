@@ -8,7 +8,7 @@ import { ArrowRight } from "react-bootstrap-icons";
 
 export default function Home() {
   return (
-    <Container fluid className="px-3">
+    <Container>
       <Container className="bg-dark higher pt-5">
         <h1 className="Noto700 text-warning display-2 skewed">
           Frontend-udvikler søger praktikplads
