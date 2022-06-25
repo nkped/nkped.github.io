@@ -1,7 +1,7 @@
 .bgBuddha {
   background-image: url("./img/buddha.svg");
-  min-height: 40vh;
-  background-position: right;
+  min-height: 60vh;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -9,7 +9,7 @@
 .bgPaperBoy {
   background-image: url("./img/paperBoy.svg");
   min-height: 35vh;
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -18,16 +18,16 @@
 
 .bgAstronaut {
   background-image: url("./img/astronaut.svg");
-  min-height: 20vh;
-  background-position: right;
+  min-height: 30vh;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .bgTreasure {
   background-image: url("./img/treasurechest.svg");
-  min-height: 35vh;
-  background-position: center;
+  min-height: 15vh;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -52,7 +52,9 @@
   font-weight: 600;
 }
 
-
+.Creepster {
+font-family: 'Creepster', cursive;
+}
 
 .bgColor {
   background-color: hsla(299, 49%, 62%, 1);
