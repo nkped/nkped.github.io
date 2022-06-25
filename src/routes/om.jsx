@@ -12,7 +12,7 @@ export default function Om() {
           Om
         </Row>
 
-        <Row className="my-5 justify-content-center">
+        <Row className="my-5 pb-3 justify-content-center">
           <Col
             xs={{ span: 10, offset: 0 }}
             lg={{ span: 6, offset: 0 }}
@@ -32,9 +32,9 @@ export default function Om() {
           <Col
             xs={{ span: 10, offset: 1 }}
             lg={{ span: 6, offset: 3 }}
-            className="Noto600 fs-2 mt-5 pt-5"
+            className="Noto600 mt-5 pt-5"
           >
-            Zen-beslutning, to år efter..
+            <h1>Zen-beslutning, to år efter..</h1>
           </Col>
           <Col
             xs={{ span: 10, offset: 1 }}
@@ -101,7 +101,11 @@ export default function Om() {
               børn også, og endda et par voksne i familien.
             </p>
           </Col>
-          <Col xs={{ span: 10, offset: 1 }} className="bgTreasure mb-5"></Col>
+          <Col
+            xs={{ span: 11, offset: 0 }}
+            lg={{ span: 6, offset: 3 }}
+            className="bgTreasure mt-3 mb-2"
+          ></Col>
         </Row>
         <Row className="mt-5 py-3">
           <Col
