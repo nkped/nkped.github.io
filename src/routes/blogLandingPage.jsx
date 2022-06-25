@@ -12,13 +12,17 @@ export default function BlogLandingPage() {
         <Card className="my-4 bg-dark">
           <Card.Body className="p-4">
             <Card.Title>
-              <h1 style={{ "font-weight": 900 }}>nkp blog</h1>
+              <h1 className="Noto700">nkp:NoGobledigook</h1>
             </Card.Title>
             <Pen color="orange" size={40} className=" mt-3 mb-5" />
             <Card.Text className="">
-              Her skriver jeg manualer om webudvikling. Jeg arbejder med{" "}
-              <span className="text-warning">reactJS</span> og{" "}
-              <span className="text-warning ">react-bootstrap</span>.
+              Her skriver jeg manualer samt om tips og tricks inden for
+              webudvikling.
+            </Card.Text>
+            <Card.Text>
+              Jeg arbejder med
+              <span className="text-warning">ReactJS</span> og{" "}
+              <span className="text-warning ">React-Bootstrap</span>.
             </Card.Text>
             <Card.Text>
               Inden længe kan man filtrere blogindlæg på emner - fx "routing",
