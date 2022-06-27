@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import BlogPostList from "./blogPostList";
 import { useState } from "react";
 import { Footer } from "../components/footer";
+import { FilterButtons } from "../components/filterButtons";
 
 export default function Blog() {
   const [open, setOpen] = useState(false);
@@ -11,6 +12,7 @@ export default function Blog() {
       <Container className="bg-dark px-0">
         <Outlet />
         <Button
+          variant="secondary"
           onClick={() => setOpen(!open)}
           aria-controls="example-collapse-text"
           aria-expanded={open}
@@ -22,6 +24,7 @@ export default function Blog() {
             <BlogPostList />
           </div>
         </Collapse>
+
         <Footer />
       </Container>
     </Container>

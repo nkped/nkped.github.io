@@ -12,24 +12,32 @@ export default function BlogPost() {
         <Row className="display-2 Noto700 pb-1 px-1 mb-2 text-muted  border-bottom border-warning">
           Blogpost
         </Row>
-        <Stack className="text-start py-5 px-3">
+        <Stack
+          className="text-start py-5 px-3"
+          md={{ span: 8, offset: 2 }}
+          lg={{ span: 6, offset: 3 }}
+        >
           <Row>
-            <Col className="pb-3">{`#${blogPost.subject}`}</Col>
+            <Col
+              md={{ span: 8, offset: 2 }}
+              lg={{ span: 6, offset: 3 }}
+              className="pb-3"
+            >{`#${blogPost.subject}`}</Col>
           </Row>
           <Row>
-            <Col>
+            <Col md={{ span: 8, offset: 2 }} lg={{ span: 6, offset: 3 }}>
               <h1 className="Noto600">{`${blogPost.titel}`}</h1>
             </Col>
           </Row>
 
           <Row>
-            <Col>
+            <Col md={{ span: 8, offset: 2 }} lg={{ span: 6, offset: 3 }}>
               <p className="lead">{blogPost.intro}</p>
               <p>{blogPost.text}</p>
             </Col>
           </Row>
           <Row>
-            <Col>
+            <Col md={{ span: 8, offset: 2 }} lg={{ span: 6, offset: 3 }}>
               <p>{blogPost.text}</p>
             </Col>
           </Row>

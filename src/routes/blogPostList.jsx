@@ -19,7 +19,9 @@ export default function BlogPostList() {
         >
           {blogPosts.map((blogPost) => (
             <Card bg="dark" key={blogPost.number} className="mt-5">
-              <Card.Header className="text-muted">{`#${blogPost.subject}`}</Card.Header>
+              <Card.Header className="text-muted">
+                {`#${blogPost.subject}`}
+              </Card.Header>
               <Card.Body className="border-start  border-secondary">
                 <Card.Title>
                   <Card.Link

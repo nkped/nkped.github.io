@@ -1,6 +1,6 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Pen } from "react-bootstrap-icons";
-import { Footer } from "../components/footer";
+import { FilterButtons } from "../components/filterButtons";
 
 export default function BlogLandingPage() {
   return (
@@ -8,7 +8,7 @@ export default function BlogLandingPage() {
       <Row className="display-2 Noto700 pb-1 px-1 mb-2 text-muted  border-bottom border-warning">
         Blog
       </Row>
-      <Row className="text-center py-3">
+      <Row className="text-center pt-3">
         <Card className="my-4 bg-dark">
           <Card.Body className="p-4">
             <Card.Title>
@@ -33,6 +33,14 @@ export default function BlogLandingPage() {
             </Card.Text>
           </Card.Body>
         </Card>
+      </Row>
+      <Row>
+        <Col className="display-2 text-center Noto700 mb-4">#</Col>
+      </Row>
+      <Row>
+        <Col>
+          <FilterButtons />
+        </Col>
       </Row>
     </Container>
   );
