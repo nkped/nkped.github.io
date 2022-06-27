@@ -15,7 +15,7 @@ const allSubjects = [
 
 export function FilterButtons() {
   const subjectButtons = allSubjects.map((subject) => (
-    <Button variant="secondary" className="m-2">
+    <Button key={subject} variant="secondary" className="m-2">
       {subject}
     </Button>
   ));

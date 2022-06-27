@@ -40,7 +40,7 @@ export default function BlogLandingPage() {
       </Row>
 
       <Row>
-        <Col className="display-2 text-center Noto700 my-2">#</Col>
+        <Col className="display-2 text-center Noto700 my-2 pt-3">#</Col>
       </Row>
       <Row>
         <Col>
