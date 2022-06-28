@@ -58,3 +58,8 @@ export function getAllBlogPosts() {
 export function getBlogPost(number) {
   return blogPosts.find((blogPost) => blogPost.number === number);
 }
+
+export function getAllSubjects() {
+  const allSubjects = blogPosts.map((a) => a.subject);
+  return allSubjects;
+}

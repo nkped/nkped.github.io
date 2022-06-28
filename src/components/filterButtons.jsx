@@ -1,21 +1,14 @@
 import { Button, Container } from "react-bootstrap";
 
-import { getAllBlogPosts } from "../data";
-
-const allSubjects = [
-  "react",
-  "react-bootstrap",
-  "react-router",
-  "react-router",
-  "github",
-  "github",
-  "github-pages",
-  "git",
-];
+import { getAllSubjects } from "../data";
 
 export function FilterButtons() {
-  const subjectButtons = allSubjects.map((subject) => (
-    <Button key={subject} variant="secondary" className="m-2">
+  const allSubjects = getAllSubjects();
+
+  const uniqueSubjects = [...new Set(allSubjects)];
+
+  const subjectButtons = uniqueSubjects.map((subject) => (
+    <Button variant="secondary" className="m-2">
       {subject}
     </Button>
   ));
