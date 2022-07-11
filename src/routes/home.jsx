@@ -1,8 +1,5 @@
-import { Container, Row, Col, Button, Image } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { Footer } from "../components/footer";
-//import homePagePic from "../img/homePagePic.png";
-//import BlueHomePageImage from "./BlueHomePageImage.svg";
-import YellowHomePageImage from "../img/YellowHomePageImage.svg";
 
 import { ArrowRight } from "react-bootstrap-icons";
 

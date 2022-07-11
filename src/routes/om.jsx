@@ -2,7 +2,6 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import { Footer } from "../components/footer";
 import { FaRegSmile, FaHandsHelping, FaHandSpock } from "react-icons/fa";
 import { RiAliensLine } from "react-icons/ri";
-import { BsEmojiSmileUpsideDown } from "react-icons/bs";
 
 export default function Om() {
   return (
@@ -123,21 +122,3 @@ export default function Om() {
     </Container>
   );
 }
-
-/*
-          <Col xs={{ span: 5, offset: 3 }}>
-            <Image fluid src={buddha} className="" />
-          </Col>
-          
-          <Col xs={{ span: 4, offset: 1 }}>
-          <Image fluid src={PaperBoy} className="" />
-          </Col>
-          
-          <Col xs={{ span: 4, offset: 7 }}>
-          <Image src={astronaut} />
-          </Col>
-          <Col xs={{ span: 4, offset: 4 }}>
-          <Image fluid src={treasurechest} />
-          </Col>
-          
-          */

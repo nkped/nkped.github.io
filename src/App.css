@@ -6,23 +6,6 @@
   background-size: contain;
 }
 
-.bgPaperBoy {
-  background-image: url("./img/paperBoy.svg");
-  min-height: 35vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-
-
-.bgAstronaut {
-  background-image: url("./img/astronaut.svg");
-  min-height: 30vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
 
 .bgTreasure {
   background-image: url("./img/treasurechest.svg");
