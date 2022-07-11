@@ -4,6 +4,7 @@ import BlogPostList from "./blogPostList";
 import { useState } from "react";
 import { Footer } from "../components/footer";
 import { FilterButtons } from "../components/filterButtons";
+import SearchBlogpost from "../components/searchBlogpost";
 
 export default function Blog() {
   const [open, setOpen] = useState(false);
@@ -11,19 +12,7 @@ export default function Blog() {
     <Container>
       <Container className="bg-dark px-0">
         <Outlet />
-        <Button
-          variant="secondary"
-          onClick={() => setOpen(!open)}
-          aria-controls="example-collapse-text"
-          aria-expanded={open}
-        >
-          Se alle blogindlæg!
-        </Button>
-        <Collapse in={open}>
-          <div>
-            <BlogPostList />
-          </div>
-        </Collapse>
+        <SearchBlogpost />
 
         <Footer />
       </Container>
