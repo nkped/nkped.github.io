@@ -10,7 +10,7 @@ export default function Home() {
         <Row>
           <Col xs={{ span: 10, offset: 1 }}>
             <h1 className="Noto700 text-warning display-2 skewed">
-              Frontend-dev søger praktikplads1
+              Frontend-dev søger praktikplads
             </h1>
           </Col>
         </Row>
